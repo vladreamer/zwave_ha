@@ -1,0 +1,31 @@
+########################
+# USB_Camera
+########################
+- platform: mjpeg 
+  mjpeg_url: http://localhost:8081 
+  name: Camera1
+  username: user1 
+  password: 1234
+########################
+# Network_Camera Office
+########################
+- platform: mjpeg 
+  mjpeg_url: http://10.1.5.51/img/video.mjpeg
+  name: Camera2 
+  username: user1 
+  password: 1234
+###########################
+# Network_Camera ServeRoom 
+###########################
+- platform: mjpeg 
+  mjpeg_url: http://10.1.5.50/img/video.mjpeg
+  name: Camera3
+  username: user1 
+  password: 1234
+###########################
+# Network_Camera Digoo 
+###########################
+- platform: ffmpeg 
+  name: Camera4
+  input: rtsp://admin:vw1234wv@10.1.5.5/onvif2
+  extra_arguments: -q:v 2

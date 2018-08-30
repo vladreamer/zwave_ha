@@ -1,0 +1,76 @@
+#######################################
+#
+# Multisensors Settings
+#
+#######################################
+sensor.multisensor1_relative_humidity:
+  friendly_name: Humidity1
+  icon: mdi:water-percent
+  unit_of_measurement: '%' 
+sensor.multisensor2_relative_humidity:
+  friendly_name: Humidity2
+  icon: mdi:water-percent
+  unit_of_measurement: '%'
+sensor.multisensor1_temperature:
+  friendly_name: Temp1
+  icon: mdi:temperature-celsius
+  unit_of_measurement: '°C'
+sensor.multisensor2_temperature:
+  friendly_name: Temp2
+  icon: mdi:temperature-celsius
+  unit_of_measurement: '°C'
+sensor.multisensor1_luminance:
+  friendly_name: Luminance1
+  icon: mdi:brightness-5
+  unit_of_measurement: '%'
+sensor.multisensor2_luminance:
+  friendly_name: Luminance2
+  icon: mdi:brightness-5
+  unit_of_measurement: '%'
+#
+#
+#######################################
+#
+# External Settings
+#
+#######################################
+sensor.disk_use_percent_:
+  friendly_name: Disk
+sensor.since_last_boot:
+  friendly_name: UpTime
+sensor.weather_temperature:
+  friendly_name: WeatherTemp  
+  unit_of_measurement: '°C'
+#sensor.time
+#  friendly_name: Time in Toronto
+#
+#
+#######################################
+#
+# Group Settings
+#
+#######################################
+group.all_automations:
+  hidden: false
+  friendly_name: All Automations
+group.all_devices:
+  hidden: false
+  friendly_name: All Devices
+group.all_lights:
+  hidden: false
+  friendly_name: All Lights
+group.all_locks:
+  hidden: false
+  friendly_name: All Locks
+group.all_remotes:
+  hidden: false
+  friendly_name: All Remotes
+group.all_scripts:
+  hidden: false
+  friendly_name: All Scripts
+group.all_switches:
+  hidden: false
+  friendly_name: All Switches
+group.all_sensors:
+  hidden: false
+  friendly_name: All Sensors

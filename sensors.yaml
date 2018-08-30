@@ -1,0 +1,119 @@
+################
+## WeatherSensor 
+################
+- platform: yr
+  name: Weather
+  forecast: 24
+  monitored_conditions:
+  - temperature
+  - precipitation
+  - windSpeed
+  - pressure
+  - humidity
+  - dewpointTemperature
+
+################
+## SystemStatus 
+################
+- platform: systemmonitor
+  name: RasbPI
+  resources:
+  - type: disk_use_percent
+    arg: /
+  - type: since_last_boot
+
+###############
+##Date and Time
+###############
+- platform: time_date
+  name: Time and Data
+  display_options:
+  - 'date'
+  - 'date_time'
+  - 'time'
+  - 'time_date'
+  - 'time_utc'
+
+- platform: worldclock
+  name: Time in Odessa
+  time_zone: Europe/Kiev
+
+##########################
+## MultiSensors Batteries
+##########################
+- platform: template
+  sensors:
+    multisensor1_battery:
+      friendly_name: "Multisensor1_Battery"
+      value_template: "{% if states.zwave.multisensor1 %}
+        {{ states.zwave.multisensor1.attributes.battery_level }}
+        {% else %}
+        unknown
+        {% endif %}"
+      unit_of_measurement: '%'
+      # entity_id: zwave.multisensor1
+      icon_template: >-
+        {% set battery_level = states('sensor.multisensor1_battery')|int('unknown') %}
+        {% set battery_round = (battery_level|int / 10)|int * 10 %}
+        {% if battery_level == 'unknown' %}
+        mdi:battery-unknown
+        {% else %}
+        {% if battery_round >= 100 %}
+        mdi:battery
+        {% elif battery_round > 0 %}
+        mdi:battery-{{ battery_round }}
+        {% else %}
+        mdi:battery-alert
+        {% endif %}
+        {% endif %}
+
+    multisensor2_battery:
+      friendly_name: "Multisensor2_Battery"
+      value_template: "{% if states.zwave.multisensor2 %}
+        {{ states.zwave.multisensor2.attributes.battery_level }}
+        {% else %}
+        unknown
+        {% endif %}"
+      unit_of_measurement: '%'
+      # entity_id: zwave.multisensor2
+      icon_template: >-
+        {% set battery_level = states('sensor.multisensor2_battery')|int('unknown') %}
+        {% set battery_round = (battery_level|int / 10)|int * 10 %}
+        {% if battery_level == 'unknown' %}
+        mdi:battery-unknown
+        {% else %}
+        {% if battery_round >= 100 %}
+        mdi:battery
+        {% elif battery_round > 0 %}
+        mdi:battery-{{ battery_round }}
+        {% else %}
+        mdi:battery-alert
+        {% endif %}
+        {% endif %} 
+
+#######################
+## WaterLeak Batterie
+#######################
+    waterleaksensor_battery:
+      friendly_name: "Waterleak_Battery"
+      value_template: "{% if states.zwave.neo_coolcam_water_leakage_detector %}
+        {{ states.zwave.neo_coolcam_water_leakage_detector.attributes.battery_level }}
+        {% else %}
+        unknown
+        {% endif %}"
+      unit_of_measurement: '%'
+      # entity_id: zwave.neo_coolcam_water_leakage_detector
+      icon_template: >-
+        {% set battery_level = states('sensor.waterleaksensor_battery')|int('unknown') %}
+        {% set battery_round = (battery_level|int / 10)|int * 10 %}
+        {% if battery_level == 'unknown' %}
+        mdi:battery-unknown
+        {% else %}
+        {% if battery_round >= 100 %}
+        mdi:battery
+        {% elif battery_round > 0 %}
+        mdi:battery-{{ battery_round }}
+        {% else %}
+        mdi:battery-alert
+        {% endif %}
+        {% endif %}

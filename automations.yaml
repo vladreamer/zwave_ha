@@ -1,0 +1,252 @@
+- id: '2018073001' 
+########################################################
+## Turn switch Neo3 "OFF" if it was "ON" triggered by
+## switch Neo2 from "OFF" to "ON". After that take 4
+## snapshoots and send them by mail "notify.MailtoPykodel"
+########################################################
+  alias: Turn off Neo3 if Neo2 on
+  trigger:
+    - entity_id: switch.neo_coolcam_power_plug_12a_switch_2
+      platform: state
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_3
+      state: 'on'
+  action:
+    - service: homeassistant.turn_off
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_3
+    - service: camera.snapshot
+      data:
+        entity_id: camera.oom
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_01.jpg"
+    - delay: '00:00:04'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_02.jpg"
+    - delay: '00:00:16'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_03.jpg"
+    - delay: '00:00:32'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_04.jpg"
+    - service: notify.MailtoPykodel
+      data_template:
+        title: "Sw3 triggered"
+        message: "Switch3 Trigger Snapshot"
+        data:
+          images:
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_01.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_02.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_03.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_04.jpg
+          html: >
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Switch Neo3 Triggered</title>
+                <style type="text/css">
+                  h1,h2,h3,h4,h5,h6 {
+                  font-family:Arial,sans-serif;
+                  }
+                </style>
+              </head>
+              <body>
+                <h1>Motion Triggered 0sec</h1>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image1 from Camera0" src="cid:snapshot_camera1_01.jpg" /></a>
+                <h4>4 sec</h4>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image2 from Camera0" src="cid:snapshot_camera1_02.jpg" /></a>
+                <h4>16 sec</h4>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera0" src="cid:snapshot_camera1_03.jpg" /></a>
+                <h4>32 sec</h4>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera0" src="cid:snapshot_camera1_04.jpg" /></a>
+              </body>
+            </html>
+#
+#
+#
+- id: '2018073002' 
+########################################################
+## Turn switch Neo1 "OFF" if it was "ON" triggered by 
+## Multisensor1 after 15 minutes "NO MOTION"
+##  
+########################################################
+  alias: Turn off Neo1 3 minutes after last movement
+  trigger:
+  - entity_id: binary_sensor.multisensor1_motion
+    for:
+      minutes: 3
+    platform: state
+    to: 'off'
+  condition:
+  - condition: state
+    entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+    state: 'on'
+  action:
+  - service: homeassistant.turn_off 
+    entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+#
+#
+#
+- id: '2018073003'
+########################################################
+## Turn switch Neo1 "ON" if it was "OFF" triggered by
+## Multisensor1. After that take 4 snapshoots and send
+## them by mail "notify.MailtoPykodel"
+########################################################
+  alias: Turn on Neo1 when there is movement
+  trigger:
+    - entity_id: binary_sensor.multisensor1_motion
+      platform: state
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+      state: 'off'
+  action:
+    - service: homeassistant.turn_on
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_11.jpg"
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera2
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_11.jpg"
+    - service: shell_command.fix_snapshot
+      data:
+        filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_11.jpg"  
+        filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_11c.jpg"  
+    - delay: '00:00:04'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_12.jpg"
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera2
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_12.jpg"
+    - service: shell_command.fix_snapshot
+      data:
+        filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_12.jpg"  
+        filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_12c.jpg"  
+    - delay: '00:00:16'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_13.jpg"
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera2
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_13.jpg"
+    - service: shell_command.fix_snapshot
+      data:
+        filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_13.jpg"  
+        filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_13c.jpg"  
+    - delay: '00:00:32'
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera1
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_14.jpg"
+    - service: camera.snapshot
+      data:
+        entity_id: camera.camera2
+        filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14.jpg"
+    - service: shell_command.fix_snapshot
+      data:
+        filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14.jpg"  
+        filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14c.jpg"  
+    - service: notify.MailtoPykodel
+      data_template:
+        title: "Motion in Room"
+        message: "Motion Detected"
+        data:
+          images:
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_11.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_12.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_13.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera1_14.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera2_11c.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera2_12c.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera2_13c.jpg
+            - /home/homeassistant/.homeassistant/downloads/snapshot_camera2_14c.jpg
+          
+          html: >
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Switch Neo1 Triggered</title>
+                <style type="text/css">
+                  h1,h2,h3,h4,h5,h6 {
+                  font-family:Arial,sans-serif;
+                  }
+                </style>
+              </head>
+              <body>
+                <h1>Switch Neo1 Triggered by sensor Multi01 CAMERA1 (0sec)</h1>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image1 from Camera1" src="cid:snapshot_camera1_11.jpg" /></a>
+                <h6>4 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image2 from Camera1" src="cid:snapshot_camera1_12.jpg" /></a>
+                <h6>16 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera1" src="cid:snapshot_camera1_13.jpg" /></a>
+                <h6>32 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera1?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera1" src="cid:snapshot_camera1_14.jpg" /></a>
+                <h1>Switch Neo1 Triggered by sensor Multi01 CAMERA2 (0sec) </h1>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera2?api_password=3health1">
+                <img style="width: 100%; alt="Image1 from Camera2" src="cid:snapshot_camera2_11c.jpg" /></a>
+                <h6>4 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera2?api_password=3health1">
+                <img style="width: 100%; alt="Image2 from Camera2" src="cid:snapshot_camera2_12c.jpg" /></a>
+                <h6>16 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera2?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera2" src="cid:snapshot_camera2_13c.jpg" /></a>
+                <h6>32 sec</h6>
+                <a href="https://blustery-narwhal-3213.dataplicity.io/api/camera_proxy_stream/camera.camera2?api_password=3health1">
+                <img style="width: 100%; alt="Image3 from Camera2" src="cid:snapshot_camera2_14c.jpg" /></a>
+              </body>
+            </html>
+#
+#
+#
+- id: '2018073004'
+########################################################
+## Turn Water Valve "OFF" if it was "ON" triggered by 
+## Water Leak sensor from "OFF" to "ON". After that send
+## an mail "notify.MailtoPykodel" 
+########################################################
+  alias: Switch of Water
+  trigger:
+  - entity_id: binary_sensor.neo_coolcam_water_leakage_detector_sensor
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: switch.sigma_walveswitch
+    state: 'on'
+  action:
+  - service: homeassistant.turn_off
+    entity_id: switch.sigma_walveswitch
+  - service: notify.MailtoPykodel
+    data:
+      title: "WaterValve triggered!"
+      message: "Something went wrong! WaterSwitch innitiated by WaterLeak sensor"

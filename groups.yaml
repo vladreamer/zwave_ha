@@ -1,0 +1,143 @@
+### Groups ###
+# Views
+default_view:
+  view: yes
+  name: Home
+  entities:
+    - sensor.disk_use_percent_
+    - sensor.since_last_boot
+    - sensor.weather_temperature
+    - group.date_time
+    - group.neoswitch1
+    - group.neoswitch2
+    - group.neoswitch3
+    - group.neoswitch4
+    - group.neoswitch5
+    - group.multisensor1
+    - group.multisensor2
+    - group.batteries
+
+date_time:
+  name: Date and Time
+  entities:
+    - sensor.time
+    - sensor.date
+    - sensor.time_utc
+    - sensor.time_in_odessa
+    - script.test_notification    
+
+neoswitch1:
+  name: Neo1 - Room Light
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_1 
+    - sensor.neo_coolcam_power_plug_12a_voltage_1
+    - sensor.neo_coolcam_power_plug_12a_current_1
+    - switch.neo_coolcam_power_plug_12a_switch_1
+
+neoswitch2:
+  name: Neo2 - WinXP(10.1.4.241)
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_2 
+    - sensor.neo_coolcam_power_plug_12a_voltage_2
+    - sensor.neo_coolcam_power_plug_12a_current_2
+    - switch.neo_coolcam_power_plug_12a_switch_2
+
+neoswitch3:
+  name: Neo3
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_3 
+    - sensor.neo_coolcam_power_plug_12a_voltage_3
+    - sensor.neo_coolcam_power_plug_12a_current_3
+    - switch.neo_coolcam_power_plug_12a_switch_3
+
+neoswitch4:
+  name: Neo4 
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_4 
+    - sensor.neo_coolcam_power_plug_12a_voltage_4
+    - sensor.neo_coolcam_power_plug_12a_current_4
+    - switch.neo_coolcam_power_plug_12a_switch_4
+
+neoswitch5:
+  name: Neo5 
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_5 
+    - sensor.neo_coolcam_power_plug_12a_voltage_5
+    - sensor.neo_coolcam_power_plug_12a_current_5
+    - switch.neo_coolcam_power_plug_12a_switch_5
+
+multisensor1:
+  name: MultiSensor1 - Room
+  entities:
+    - binary_sensor.multisensor1_motion
+    - binary_sensor.multisensor1_tamper
+    - sensor.multisensor1_luminance 
+    - sensor.multisensor1_relative_humidity 
+    - sensor.multisensor1_temperature
+    - sensor.multisensor1_battery
+
+
+multisensor2:
+  name: MultiSensor2 - ServerRoom
+  entities:
+    - binary_sensor.multisensor2_motion
+    - binary_sensor.multisensor2_tamper
+    - sensor.multisensor2_luminance 
+    - sensor.multisensor2_relative_humidity 
+    - sensor.multisensor2_temperature
+    - sensor.multisensor2_battery
+
+batteries:
+  name: Batteries
+  entities:
+    - sensor.multisensor1_battery
+    - sensor.multisensor2_battery
+
+security:
+  view: yes
+  name: Security
+  entities:
+    - group.cameras
+
+
+cameras:
+  name: SecurityCameras
+  control: hidden
+  entities:
+    - camera.camera1 
+    - camera.camera2
+    - camera.camera3
+
+
+power_switch:
+  view: yes
+  name: Switches
+  entities:
+    - group.all_switches
+
+graphs:
+  view: yes
+  name: Monitoring Chart
+  icon: mdi:chart-line-variant
+  entities:
+    - group.temperature
+    - group.humidity
+    - group.luminance
+    - group.power
+    
+temperature:
+    name: Temperature
+    entities:
+    - history_graph.temperature_graphs
+humidity:
+    name: Humidity
+    entities:
+    - history_graph.humidity_graphs
+luminance:
+    name: Luminance
+    entities:
+    - history_graph.luminance_graphs
+power:
+    name: Power
+    entities:
+    - history_graph.power_graphs
