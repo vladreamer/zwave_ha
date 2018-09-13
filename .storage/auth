@@ -1,0 +1,64 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "viewer"
+                },
+                "id": "14e0318966b7434d93169ff47403e825",
+                "user_id": "9c9efda836dc4bc8bcb61efeff9b1571"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "https://blustery-narwhal-3213.dataplicity.io/",
+                "created_at": "2018-09-05T18:13:08.504251+00:00",
+                "id": "ce9e515bf7d44f19a1cfd117bca80870",
+                "jwt_key": "4702ce530497a8a664338fc3c3bac28d6203cfa9da24eb683cbf5f99b7d7e7043069a75d64fed12ea40a0c394a87f5d182c8f6bb5ecd1c78760fdd8020e5c281",
+                "token": "df8fdfa752512d8be37be11fe39c0ef6e576a979610d70317864a60cb550623b8d2760943370d410755093365b2904a34e24fc987914098db5b846b9f4a20534",
+                "user_id": "9c9efda836dc4bc8bcb61efeff9b1571"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "https://blustery-narwhal-3213.dataplicity.io/",
+                "created_at": "2018-09-04T19:51:06.009266+00:00",
+                "id": "fdd08c88500542c3ae9d4c254dd09208",
+                "jwt_key": "ba63bab7d2808f76299b690dd0f055ab7b8ac2b4513e8e5dbd4667c6b790d4aa408085a469e4304f30a3d6a7993c7f926a1bd62178a2811eb563f18cc57cf553",
+                "token": "39e19caaf2ca64a8d717f82ba2eed5404679e800e4c88431952f39abab9fe0842c1d269e4c12eb742b4d3372687b01e0cb0665f555e865d5e223ac92ea3e319e",
+                "user_id": "9c9efda836dc4bc8bcb61efeff9b1571"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "https://blustery-narwhal-3213.dataplicity.io/",
+                "created_at": "2018-09-11T20:04:40.550950+00:00",
+                "id": "be4b0d369f2d4aba90f7e492bf5daf1b",
+                "jwt_key": "2bd8bd2ada79a781683b2a74a358819c4071ac47dd4899c915e87a9e7f1e4e6572769c6433569bf28a13665e28ae96b36cd52b56fb6876ee58125eacb46f5bd0",
+                "token": "23d2ec3f5abafba300022f96991e64610f5840a1aab5634631cd0e726cc55ac4c22fcb58fe9e862f144680f227bb12168477815f452be4edf6e07623d26033f2",
+                "user_id": "9c9efda836dc4bc8bcb61efeff9b1571"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "https://blustery-narwhal-3213.dataplicity.io/",
+                "created_at": "2018-09-10T02:25:57.087451+00:00",
+                "id": "ff7bc6b05bd94d2b9e4f3f4d0352ea29",
+                "jwt_key": "3c7c161951070e382c5714fef40d74ca7959e9e4fac3265cf897ddf02b52f87e5bacacb9f86db2ca96c8a383fa73f85ffe5b4e3b46de72187645a4d2e47ec40a",
+                "token": "43561d41efd7ccf5810158cdeaa15a67fc3d80f9ebc8d6532f595ac762955436df738b929225ce0c5272072b335760796aef16678b6501867fd090e924160083",
+                "user_id": "9c9efda836dc4bc8bcb61efeff9b1571"
+            }
+        ],
+        "users": [
+            {
+                "id": "9c9efda836dc4bc8bcb61efeff9b1571",
+                "is_active": true,
+                "is_owner": true,
+                "name": "viewer",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

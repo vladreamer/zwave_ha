@@ -1,6 +1,6 @@
 homeassistant:
   # Name of the location where Home Assistant is running
-  name: Home
+  name: Centre for Global eHealth Innovation 
   # Location required to calculate the time the sun rises and sets
   latitude: 44.0168
   longitude: -79.8163
@@ -66,9 +66,28 @@ logger:
 # Enables a map showing the location of tracked devices
 map:
 
+recorder:
+  purge_keep_days: 5
+  db_url: mysql://hassuser:vw123wv@localhost/hass 
+  include:
+    domains:
+      - sensor
+      - switch 
+  exclude:
+    domains:
+      - automation
+      - weblink
+      - updater
+    entities:
+      - sun.sun # Don't record sun data
+      - sensor.last_boot # Comes from 'systemmonitor' sensor platform
+      - sensor.date
+
+
+
 # Text to speech
-tts:
-  - platform: google
+#tts:
+#  - platform: google
 
 ffmpeg:
   #ffmpeg_bin: /usr/bin/ffmpeg

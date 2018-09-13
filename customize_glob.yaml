@@ -21,6 +21,14 @@
   icon: mdi:power-socket
 "sensor.neo_coolcam_power_plug_12a_current*":
   icon: mdi:flash
+"sensor.zooz_zen06_power*":
+  icon: mdi:power-plug
+"sensor.zooz_zen06_voltage*":
+  icon: mdi:power-socket
+"sensor.zooz_zen06_current*":
+  icon: mdi:flash
+
+
 ##################
 ## LeakDetector
 ##################
