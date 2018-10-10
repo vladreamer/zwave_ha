@@ -28,7 +28,7 @@ date_time:
     - script.test_notification    
 
 neoswitch1:
-  name: RoomLight_Id:16
+  name: Id:16
   entities:
     - sensor.neo_coolcam_power_plug_12a_power_1 
     - sensor.neo_coolcam_power_plug_12a_voltage_1
@@ -36,7 +36,7 @@ neoswitch1:
     - switch.neo_coolcam_power_plug_12a_switch_1
 
 neoswitch2:
-  name: WinXP_10.1.4.241_Id:2
+  name: AppleAP1-OBS3_Id:2
   entities:
     - sensor.neo_coolcam_power_plug_12a_power_2 
     - sensor.neo_coolcam_power_plug_12a_voltage_2
@@ -52,7 +52,7 @@ neoswitch3:
     - switch.neo_coolcam_power_plug_12a_switch_3
 
 neoswitch4:
-  name: Id:4 
+  name: DynamicWAP_Id:4 
   entities:
     - sensor.neo_coolcam_power_plug_12a_power_4 
     - sensor.neo_coolcam_power_plug_12a_voltage_4

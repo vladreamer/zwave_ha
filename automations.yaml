@@ -6,16 +6,16 @@
 ########################################################
   alias: Turn off Neo3 if Neo2 on
   trigger:
-    - entity_id: switch.neo_coolcam_power_plug_12a_switch_2
+    - entity_id: switch.neo_coolcam_power_plug_12a_switch_22
       platform: state
       to: 'on'
   condition:
     - condition: state
-      entity_id: switch.neo_coolcam_power_plug_12a_switch_3
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_33
       state: 'on'
   action:
     - service: homeassistant.turn_off
-      entity_id: switch.neo_coolcam_power_plug_12a_switch_3
+      entity_id: switch.neo_coolcam_power_plug_12a_switch_33
     - service: camera.snapshot
       data:
         entity_id: camera.oom
@@ -79,11 +79,11 @@
 #
 - id: '2018073002' 
 ########################################################
-## Turn switch Neo1 "OFF" if it was "ON" triggered by 
+## Turn switch InovelliSW2 "OFF" if it was "ON" triggered by 
 ## Multisensor1 after 15 minutes "NO MOTION"
 ##  
 ########################################################
-  alias: Turn off Neo1 3 minutes after last movement
+  alias: Turn off InovelliSW2 3 minutes after last movement
   trigger:
   - entity_id: binary_sensor.multisensor1_motion
     for:
@@ -92,32 +92,32 @@
     to: 'off'
   condition:
   - condition: state
-    entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+    entity_id: switch.inovelli_2ch_switch_2 
     state: 'on'
   action:
   - service: homeassistant.turn_off 
-    entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+    entity_id: switch.inovelli_2ch_switch_2
 #
 #
 #
 - id: '2018073003'
 ########################################################
-## Turn switch Neo1 "ON" if it was "OFF" triggered by
+## Turn switch InovelliSW2  "ON" if it was "OFF" triggered by
 ## Multisensor1. After that take 4 snapshoots and send
 ## them by mail "notify.MailtoPykodel"
 ########################################################
-  alias: Turn on Neo1 when there is movement
+  alias: Turn on InovelliSW2 when there is movement
   trigger:
     - entity_id: binary_sensor.multisensor1_motion
       platform: state
       to: 'on'
   condition:
     - condition: state
-      entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+      entity_id: switch.inovelli_2ch_switch_2
       state: 'off'
   action:
     - service: homeassistant.turn_on
-      entity_id: switch.neo_coolcam_power_plug_12a_switch_1
+      entity_id: switch.inovelli_2ch_switch_2
     - service: camera.snapshot
       data:
         entity_id: camera.camera1

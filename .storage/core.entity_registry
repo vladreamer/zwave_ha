@@ -637,7 +637,7 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "entity_id": "zwave.multisensor1",
-                "name": null,
+                "name": "multisensor1",
                 "platform": "zwave",
                 "unique_id": "node-14"
             },
@@ -720,158 +720,6 @@
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "14-72057594277789696"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "zwave.neo_coolcam_power_plug_12a_1",
-                "name": "Neo1",
-                "platform": "zwave",
-                "unique_id": "node-16"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_power_1",
-                "name": "Neo1_power",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377026"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_voltage_1",
-                "name": "Neo1_Volts",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377154"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_current_1",
-                "name": "Neo1_Amps",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377218"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_type_1",
-                "name": "Neo1_alarm_type",
-                "platform": "zwave",
-                "unique_id": "16-72057594312409089"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_level_1",
-                "name": "Neo1_alarm_lvl",
-                "platform": "zwave",
-                "unique_id": "16-72057594312409105"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_energy_1",
-                "name": "Neo1_energy",
-                "platform": "zwave",
-                "unique_id": "16-72057594311376898"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "switch.neo_coolcam_power_plug_12a_switch_1",
-                "name": "Neo1",
-                "platform": "zwave",
-                "unique_id": "16-72057594311163904"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_exporting_1",
-                "name": "Neo1_export",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377408"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_1",
-                "name": "Neo1_src",
-                "platform": "zwave",
-                "unique_id": "16-72057594312409121"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_power_management_1",
-                "name": "Neo1_pwr_mgmt",
-                "platform": "zwave",
-                "unique_id": "16-72057594312409265"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_1",
-                "name": "Neo1_prev_read",
-                "platform": "zwave",
-                "unique_id": "16-72057594311376914"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_1",
-                "name": "Neo1_int",
-                "platform": "zwave",
-                "unique_id": "16-72057594311376931"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_2",
-                "name": "Neo1_prev_read2",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377042"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_2",
-                "name": "Neo1_int2",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377059"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_3",
-                "name": "Neo1_prev_read3",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377170"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_3",
-                "name": "Neo1_int3",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377187"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_4",
-                "name": "Neo1_prev_read4",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377234"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_4",
-                "name": "Neo1_int4",
-                "platform": "zwave",
-                "unique_id": "16-72057594311377251"
             },
             {
                 "config_entry_id": null,
@@ -1194,84 +1042,252 @@
                 "unique_id": "20-72057594378485778"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.joes_office",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "cdd85fdf-3233-c772-a1bc-1d2287f72ef3"
+                "entity_id": "zwave.inovelli_2ch",
+                "name": "Inovelli_2ch",
+                "platform": "zwave",
+                "unique_id": "node-22"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.xbr65x900e",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "d64706ea-584a-6d3a-df29-558f7f6bbe6c"
+                "entity_id": "switch.inovelli_2ch_switch",
+                "name": "InovelliSW1->SW2",
+                "platform": "zwave",
+                "unique_id": "22-72057594411827200"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.meeting_room_roastery_tv",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "cac03c75-6dc0-0312-5fdf-0d41a097fc30"
+                "entity_id": "switch.inovelli_2ch_switch_2",
+                "name": "InovelliSW2",
+                "platform": "zwave",
+                "unique_id": "22-144115188449755136"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.boardroom_tv",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "1af89bcf-9e90-d618-56d0-54b92e62f4db"
+                "entity_id": "switch.inovelli_2ch_switch_3",
+                "name": "InovelliSW3",
+                "platform": "zwave",
+                "unique_id": "22-216172782487683072"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.joes_office_speaker",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "ffea58fc-80e1-69b2-c799-24a2b230f3da"
+                "entity_id": "zwave.neo_coolcam_power_plug_12a_1",
+                "name": "Neo1",
+                "platform": "zwave",
+                "unique_id": "node-16"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.ehi",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "a4176afc-bfb0-403f-9b77-15a91aa5fc97"
+                "entity_id": "switch.neo_coolcam_power_plug_12a_switch_1",
+                "name": "Neo1",
+                "platform": "zwave",
+                "unique_id": "16-72057594311163904"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.meeting_room_east_tv",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "a321b26c-d625-5549-5a99-4a2501c068ab"
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_energy_1",
+                "name": "Neo1_Energy",
+                "platform": "zwave",
+                "unique_id": "16-72057594311376898"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.meeting_room_colosseumtv",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "f281a71d-5e7f-c900-584a-8f7fdea6db84"
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1",
+                "name": "Neo1_PrevRead",
+                "platform": "zwave",
+                "unique_id": "16-72057594311376914"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.meeting_room_pluto_tv",
-                "name": null,
-                "platform": "cast",
-                "unique_id": "110a78a3-d147-90ce-df21-5391d1418811"
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1",
+                "name": "Neo1_Interval",
+                "platform": "zwave",
+                "unique_id": "16-72057594311376931"
             },
             {
-                "config_entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "config_entry_id": null,
                 "device_id": null,
-                "entity_id": "media_player.meeting_room_ne_tv",
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_power_1",
+                "name": "Neo1_Pwr",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377026"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_2",
+                "name": "Neo1_PrevRead2",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377042"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_2",
+                "name": "Neo1_Interval2",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377059"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_voltage_1",
+                "name": "Neo1_Voltage",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377154"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_3",
+                "name": "Neo1_PrevRead3",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377170"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_3",
+                "name": "Neo1_Interval3",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377187"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_current_1",
+                "name": "Neo1_Amps",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377218"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_4",
+                "name": "Neo1_PrevRead4",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377234"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_1_4",
+                "name": "Neo1_Interval4",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377251"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_exporting_1",
+                "name": "Neo1_Export",
+                "platform": "zwave",
+                "unique_id": "16-72057594311377408"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_type_1",
+                "name": "Neo1_AlrmType",
+                "platform": "zwave",
+                "unique_id": "16-72057594312409089"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_level_1",
+                "name": "Neo1_AlrmLvl",
+                "platform": "zwave",
+                "unique_id": "16-72057594312409105"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_1",
+                "name": "Neo1_SrcId",
+                "platform": "zwave",
+                "unique_id": "16-72057594312409121"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_power_management_1",
+                "name": "Neo1_PwrMgmt",
+                "platform": "zwave",
+                "unique_id": "16-72057594312409265"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.homeseer_hsm200_wireless_multisensor",
                 "name": null,
-                "platform": "cast",
-                "unique_id": "a0da2c76-4a49-2d2f-c3a1-5184c0a1653b"
+                "platform": "zwave",
+                "unique_id": "node-23"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "binary_sensor.homeseer_hsm200_wireless_multisensor_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594428784640"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.homeseer_hsm200_wireless_multisensor_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594428801042"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.homeseer_hsm200_wireless_multisensor_luminance",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594428801074"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.homeseer_hsm200_wireless_multisensor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849633"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.homeseer_hsm200_wireless_multisensor_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849761"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.ezm_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849601"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.ezm_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849617"
             }
         ]
     },

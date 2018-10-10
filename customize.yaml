@@ -1,5 +1,15 @@
 #######################################
 #
+# Switches 
+#
+#######################################
+switch.inovelli_2ch_switch_2:
+  friendly_name: RoomLight
+switch.inovelli_2ch_switch_3:
+  friendly_name: Windows10_Desktop 
+
+#######################################
+#
 # Multisensors Settings
 #
 #######################################
