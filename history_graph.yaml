@@ -4,6 +4,12 @@ temperature:
     - sensor.weather_temperature
     - sensor.multisensor1_temperature 
     - sensor.multisensor2_temperature
+    - sensor.office_p1_temperature
+    - sensor.office_p2_temperature
+    - sensor.office_p3_temperature
+    - sensor.office_t1_temperature
+    - sensor.office_t2_temperature
+    - sensor.office_t3_temperature
   hours_to_show: 72 
 #
 humidity:
@@ -11,6 +17,12 @@ humidity:
   entities:
     - sensor.multisensor1_relative_humidity
     - sensor.multisensor2_relative_humidity
+    - sensor.office_p1_humidity
+    - sensor.office_p2_humidity
+    - sensor.office_p3_humidity
+    - sensor.office_t1_humidity
+    - sensor.office_t2_humidity
+    - sensor.office_t3_humidity
   hours_to_show: 72 
 #
 luminance:

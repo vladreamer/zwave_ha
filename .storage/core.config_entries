@@ -2,11 +2,21 @@
     "data": {
         "entries": [
             {
+                "connection_class": "unknown",
                 "data": {},
                 "domain": "cast",
                 "entry_id": "b36f2711ae30424da085e7bf8465f3bb",
                 "source": "discovery",
                 "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "7de5099ca4b243f89d2fc41cc2d231ad",
+                "source": "import",
+                "title": "configuration.yaml",
                 "version": 1
             }
         ]

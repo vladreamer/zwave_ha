@@ -1,3 +1,12 @@
+#############################
+## Temperature and Humidity 
+#############################
+"sensor.*temperature":
+   icon: mdi:temperature-celsius
+"sensor.*humidity":
+   icon: mdi:water-percent
+
+
 ##################
 ## PowerPlugs 
 ##################

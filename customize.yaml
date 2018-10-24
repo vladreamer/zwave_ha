@@ -14,19 +14,19 @@ switch.inovelli_2ch_switch_3:
 #
 #######################################
 sensor.multisensor1_relative_humidity:
-  friendly_name: Humidity1
+  friendly_name: OfficeHumid
   icon: mdi:water-percent
   unit_of_measurement: '%' 
 sensor.multisensor2_relative_humidity:
-  friendly_name: Humidity2
+  friendly_name: ServerHumid
   icon: mdi:water-percent
   unit_of_measurement: '%'
 sensor.multisensor1_temperature:
-  friendly_name: Temp1
+  friendly_name: OfficeTemp
   icon: mdi:temperature-celsius
   unit_of_measurement: '°C'
 sensor.multisensor2_temperature:
-  friendly_name: Temp2
+  friendly_name: ServerTemp
   icon: mdi:temperature-celsius
   unit_of_measurement: '°C'
 sensor.multisensor1_luminance:
