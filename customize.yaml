@@ -3,6 +3,9 @@
 # Switches 
 #
 #######################################
+switch.inovelli_2ch_switch:
+  hidden: true 
+  friendly_name: SW1->SW2
 switch.inovelli_2ch_switch_2:
   friendly_name: RoomLight
 switch.inovelli_2ch_switch_3:

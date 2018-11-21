@@ -85,6 +85,9 @@ multisensor1:
     - sensor.multisensor1_relative_humidity 
     - sensor.multisensor1_temperature
     - sensor.multisensor1_battery
+    - switch.inovelli_2ch_switch 
+    - switch.inovelli_2ch_switch_2 
+    - switch.inovelli_2ch_switch_3 
 
 
 multisensor2:

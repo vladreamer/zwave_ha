@@ -1,0 +1,188 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "95975669c7fc4adeb29d8454be77e026",
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f3d178f20b994b228615dd12ea307425",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "bc8812e3b66a46f6916ad556bd15460e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "3226af2066204b9489a8d7d5122097b8",
+                "identifiers": [
+                    [
+                        "zwave",
+                        11
+                    ]
+                ],
+                "manufacturer": "Vision",
+                "model": "ZP3111 Multisensor 4in1",
+                "name": "Vision ZP3111 Multisensor 4in1",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "1994c6a6b1c840c0a41f7147fd2c6d60",
+                "identifiers": [
+                    [
+                        "zwave",
+                        14
+                    ]
+                ],
+                "manufacturer": "Vision",
+                "model": "ZP3111 Multisensor 4in1",
+                "name": "Vision ZP3111 Multisensor 4in1",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "e88292c188b04a3fb5ea078e80df51e9",
+                "identifiers": [
+                    [
+                        "zwave",
+                        16
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f63c95bf7f6a43e1860518bb073fcddb",
+                "identifiers": [
+                    [
+                        "zwave",
+                        18
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "118b536360564982aa3244a2a463e612",
+                "identifiers": [
+                    [
+                        "zwave",
+                        20
+                    ]
+                ],
+                "manufacturer": "Zooz",
+                "model": "ZEN06",
+                "name": "Zooz ZEN06",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "ca030e212d8144c891f3ce3a7c2feecc",
+                "identifiers": [
+                    [
+                        "zwave",
+                        22
+                    ]
+                ],
+                "manufacturer": "Zooz",
+                "model": "NZW37 2-Channel Smart Plug (w/Scene)",
+                "name": "Zooz NZW37 2-Channel Smart Plug (w/Scene)",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f774ecf93b7348508fc9a15288d8c058",
+                "identifiers": [
+                    [
+                        "zwave",
+                        23
+                    ]
+                ],
+                "manufacturer": "Homeseer",
+                "model": "HSM200 Wireless Multi-Sensor",
+                "name": "EZM",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}
