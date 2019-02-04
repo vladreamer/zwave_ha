@@ -7,6 +7,8 @@ default_view:
     - sensor.disk_use_percent_
     - sensor.since_last_boot
     - sensor.weather_temperature
+    - binary_sensor.kaipule_im20_doorwindow_sensor_sensor
+    - binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2
     - group.date_time
     - group.neoswitch1
     - group.neoswitch2
@@ -26,6 +28,7 @@ date_time:
     - sensor.time_utc
     - sensor.time_in_odessa
     - script.test_notification    
+    - script.facebook_notification    
 
 neoswitch1:
   name: Id:16
@@ -108,10 +111,6 @@ batteries:
     - sensor.office_p1_battery
     - sensor.office_p2_battery
     - sensor.office_p3_battery
-    - sensor.office_t1_battery
-    - sensor.office_t2_battery
-    - sensor.office_t3_battery
-
 
 security:
   view: yes
@@ -127,7 +126,6 @@ cameras:
     - camera.camera1 
     - camera.camera2
     - camera.camera3
-    - camera.camera4
 
 temp_humid:
   view: yes
@@ -145,9 +143,6 @@ temp:
     - sensor.office_p1_temperature 
     - sensor.office_p2_temperature 
     - sensor.office_p3_temperature 
-    - sensor.office_t1_temperature 
-    - sensor.office_t2_temperature 
-    - sensor.office_t3_temperature 
 
 humid:
   name: Humidity 
@@ -158,9 +153,6 @@ humid:
     - sensor.office_p1_humidity
     - sensor.office_p2_humidity
     - sensor.office_p3_humidity
-    - sensor.office_t1_humidity
-    - sensor.office_t2_humidity
-    - sensor.office_t3_humidity
 
 power_switch:
   view: yes

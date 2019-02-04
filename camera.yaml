@@ -7,19 +7,19 @@
   username: user1 
   password: 1234
 ########################
-# USB_Camera2
+# USB_Camera4
 ########################
-- platform: mjpeg 
-  mjpeg_url: http://10.1.2.89:8082 
-  name: Camera2
-  username: user1 
-  password: 1234
+#- platform: mjpeg 
+#  mjpeg_url: http://10.1.2.89:8082 
+#  name: Camera4
+#  username: user1 
+#  password: 1234
 ########################
 # Network_Camera Office
 ########################
 - platform: mjpeg 
   mjpeg_url: http://10.1.2.91/img/video.mjpeg
-  name: Camera3 
+  name: Camera2 
   username: user1 
   password: 1234
 ###########################
@@ -27,6 +27,6 @@
 ###########################
 - platform: mjpeg 
   mjpeg_url: http://10.1.2.90/img/video.mjpeg
-  name: Camera4
+  name: Camera3
   username: user1 
   password: 1234

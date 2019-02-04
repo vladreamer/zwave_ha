@@ -50,9 +50,9 @@
                         4
                     ]
                 ],
-                "manufacturer": "Neo CoolCam",
-                "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
+                "manufacturer": "",
+                "model": "",
+                "name": "Unknown Node 4",
                 "sw_version": null
             },
             {
@@ -159,8 +159,8 @@
                     ]
                 ],
                 "manufacturer": "Zooz",
-                "model": "NZW37 2-Channel Smart Plug (w/Scene)",
-                "name": "Zooz NZW37 2-Channel Smart Plug (w/Scene)",
+                "model": "Unknown: type=2500, id=2500",
+                "name": "Zooz Unknown: type=2500, id=2500",
                 "sw_version": null
             },
             {
@@ -179,6 +179,42 @@
                 "manufacturer": "Homeseer",
                 "model": "HSM200 Wireless Multi-Sensor",
                 "name": "EZM",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "identifiers": [
+                    [
+                        "zwave",
+                        24
+                    ]
+                ],
+                "manufacturer": "Kaipule",
+                "model": "IM20 Door/Window Sensor",
+                "name": "Kaipule IM20 Door/Window Sensor",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "90e211986189492c89a27b5a0329432b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        25
+                    ]
+                ],
+                "manufacturer": "Kaipule",
+                "model": "IM20 Door/Window Sensor",
+                "name": "Kaipule IM20 Door/Window Sensor",
                 "sw_version": null
             }
         ]

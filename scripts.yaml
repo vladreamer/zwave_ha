@@ -1,6 +1,15 @@
 test_notification:
-  alias: 'Test Gmail'
+  alias: 'Gmail Notification'
   sequence:
     - service: notify.MailToPykodel
       data:
         message: This is a test!
+
+facebook_notification:
+  alias: 'FaceBook Notification'
+  sequence:
+    - service: notify.FB_notify
+      data:
+        message: "Office FB test"
+        target:
+          - '+14166487193'

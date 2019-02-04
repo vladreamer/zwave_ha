@@ -1,3 +1,13 @@
+##################
+## DoorSensors
+##################
+binary_sensor.kaipule_im20_doorwindow_sensor_sensor:
+  friendly_name: ServerRoom
+  device_class: door
+binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2:
+  friendly_name: Office 
+  device_class: door
+
 #######################################
 #
 # Switches 

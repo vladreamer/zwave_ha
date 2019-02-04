@@ -1458,6 +1458,132 @@
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "20-72057594378485906"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626849"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_access_control",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626961"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626977"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.kaipule_im20_doorwindow_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-24"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626817"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626833"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "ee9d3bdd3e954c37a1670ee849e35641",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.kaipule_im20_doorwindow_sensor_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594445561856"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_sourcenodeid_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404065"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_access_control_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404177"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_burglar_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404193"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.kaipule_im20_doorwindow_sensor_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-25"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594462339072"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_alarm_type_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404033"
+            },
+            {
+                "config_entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "device_id": "90e211986189492c89a27b5a0329432b",
+                "disabled_by": null,
+                "entity_id": "sensor.kaipule_im20_doorwindow_sensor_alarm_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404049"
             }
         ]
     },
