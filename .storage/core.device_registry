@@ -2,6 +2,7 @@
     "data": {
         "devices": [
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -20,6 +21,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -38,6 +40,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -50,12 +53,13 @@
                         4
                     ]
                 ],
-                "manufacturer": "",
-                "model": "",
-                "name": "Unknown Node 4",
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -74,6 +78,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -92,6 +97,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -110,6 +116,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -128,6 +135,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -146,6 +154,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -164,6 +173,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -182,6 +192,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -200,6 +211,7 @@
                 "sw_version": null
             },
             {
+                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
@@ -215,6 +227,44 @@
                 "manufacturer": "Kaipule",
                 "model": "IM20 Door/Window Sensor",
                 "name": "Kaipule IM20 Door/Window Sensor",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "c070dd588dae409898e9839658ea39d4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        26
+                    ]
+                ],
+                "manufacturer": "Neo CoolCam",
+                "model": "Power plug 12A",
+                "name": "Neo CoolCam Power plug 12A",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "591d9d5f756e409082e493c8ab83e7cb",
+                "identifiers": [
+                    [
+                        "zwave",
+                        27
+                    ]
+                ],
+                "manufacturer": "Everspring",
+                "model": "ST812 Flood Detector",
+                "name": "Everspring ST812 Flood Detector",
                 "sw_version": null
             }
         ]

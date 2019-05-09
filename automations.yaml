@@ -2,9 +2,10 @@
 ########################################################
 ## Turn switch Neo3 "OFF" if it was "ON" triggered by
 ## switch Neo2 from "OFF" to "ON". After that take 4
-## snapshoots and send them by mail "notify.MailtoPykodel"
+## snapshoots and send them by mail "notify.mailtopykodel"
 ########################################################
   alias: Turn off Neo3 if Neo2 on
+  initial_state: true
   trigger:
     - entity_id: switch.neo_coolcam_power_plug_12a_switch_22
       platform: state
@@ -35,7 +36,7 @@
       data:
         entity_id: camera.camera1
         filename: "/home/homeassistant/.homeassistant/downloads/snapshot_camera1_04.jpg"
-    - service: notify.MailtoPykodel
+    - service: notify.mailtopykodel
       data_template:
         title: "Sw3 triggered"
         message: "Switch3 Trigger Snapshot"
@@ -86,6 +87,7 @@
 ##  
 ########################################################
   alias: Turn off InovelliSW2 3 minutes after last movement
+  initial_state: true
   trigger:
   - entity_id: binary_sensor.multisensor1_motion
     for:
@@ -105,9 +107,10 @@
 ########################################################
 ## Turn switch InovelliSW2  "ON" if it was "OFF" triggered by
 ## Door sensor. After that take 4 snapshoots and send
-## them by mail "notify.MailtoPykodel"
+## them by mail "notify.mailtopykodel"
 ########################################################
   alias: Door is open
+  initial_state: true
   trigger:
     - entity_id: binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2
       platform: state
@@ -173,12 +176,7 @@
       data:
         filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14.jpg"  
         filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14c.jpg"  
-    - service: notify.FB_notify
-      data:
-        message: "Office Door is Open"
-        target:
-          - '+14166487193' 
-    - service: notify.MailtoPykodel
+    - service: notify.mailtopykodel
       data_template:
         title: "Office Door Open"
         message: "Office Door Open"
@@ -244,9 +242,10 @@
 ########################################################
 ## Turn switch InovelliSW2  "ON" if it was "OFF" triggered by
 ## Multisensor1. After that take 4 snapshoots and send
-## them by mail "notify.MailtoPykodel"
+## them by mail "notify.mailtopykodel"
 ########################################################
   alias: Turn on InovelliSW2 when there is movement
+  initial_state: true
   trigger:
     - entity_id: binary_sensor.multisensor1_motion
       platform: state
@@ -309,7 +308,7 @@
       data:
         filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14.jpg"  
         filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera2_14c.jpg"  
-    - service: notify.MailtoPykodel
+    - service: notify.mailtopykodel
       data_template:
         title: "Office Motion Detected"
         message: "Motion Detected"
@@ -374,9 +373,10 @@
 ########################################################
 ## Turn switch Zooz01 (ServerRoom)  "ON" if it was "OFF" triggered by
 ## Multisensor2. After that take 4 snapshoots and send
-## them by mail "notify.MailtoPykodel"
+## them by mail "notify.mailtopykodel"
 ########################################################
   alias: Turn on Zooz01 when there is movement
+  initial_state: true
   trigger:
     - entity_id: binary_sensor.multisensor2_motion
       platform: state
@@ -423,7 +423,7 @@
       data:
         filename1: "/home/homeassistant/.homeassistant/downloads/snapshot_camera3_14.jpg"
         filename2: "/home/homeassistant/.homeassistant/downloads/snapshot_camera3_14c.jpg"
-    - service: notify.MailtoPykodel
+    - service: notify.mailtopykodel
       data_template:
         title: "ServerRoom Motion Detected"
         message: "Motion Detected"
@@ -475,6 +475,7 @@
 ##
 ########################################################
   alias: Turn off Zooz01 5 minutes after last movement
+  initial_state: true
   trigger:
   - entity_id: binary_sensor.multisensor2_motion
     for:
@@ -495,9 +496,10 @@
 ########################################################
 ## Turn Water Valve "OFF" if it was "ON" triggered by 
 ## Water Leak sensor from "OFF" to "ON". After that send
-## an mail "notify.MailtoPykodel" 
+## an mail "notify.mailtopykodel" 
 ########################################################
   alias: Switch of Water
+  initial_state: true
   trigger:
   - entity_id: binary_sensor.neo_coolcam_water_leakage_detector_sensor
     platform: state
@@ -509,7 +511,7 @@
   action:
   - service: homeassistant.turn_off
     entity_id: switch.sigma_walveswitch
-  - service: notify.MailtoPykodel
+  - service: notify.mailtopykodel
     data:
       title: "WaterValve triggered!"
       message: "Something went wrong! WaterSwitch innitiated by WaterLeak sensor"

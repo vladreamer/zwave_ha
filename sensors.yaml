@@ -125,7 +125,8 @@
   resources:
   - type: disk_use_percent
     arg: /
-  - type: since_last_boot
+  - type: last_boot
+  - type: processor_use
 
 ###############
 ##Date and Time
@@ -197,19 +198,19 @@
         {% endif %} 
 
 #######################
-## WaterLeak Batterie
+## FloodSensor1 Battery
 #######################
-    waterleaksensor_battery:
-      friendly_name: "Waterleak_Battery"
-      value_template: "{% if states.zwave.neo_coolcam_water_leakage_detector %}
-        {{ states.zwave.neo_coolcam_water_leakage_detector.attributes.battery_level }}
+    floodsensor1_battery:
+      friendly_name: "FloodSensor1_Battery"
+      value_template: "{% if states.zwave.everspring_st812_flood_detector %}
+        {{ states.zwave.everspring_st812_flood_detector.attributes.battery_level }}
         {% else %}
         unknown
         {% endif %}"
       unit_of_measurement: '%'
-      # entity_id: zwave.neo_coolcam_water_leakage_detector
+      # entity_id: zwave.everspring_st812_flood_detector
       icon_template: >-
-        {% set battery_level = states('sensor.waterleaksensor_battery')|int('unknown') %}
+        {% set battery_level = states('sensor.floodsensor1_battery')|int('unknown') %}
         {% set battery_round = (battery_level|int / 10)|int * 10 %}
         {% if battery_level == 'unknown' %}
         mdi:battery-unknown

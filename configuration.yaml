@@ -98,6 +98,7 @@ ffmpeg:
 # Cloud
 #cloud:
 
+system_health:
 binary_sensor: !include binary_sensors.yaml 
 sensor: !include sensors.yaml
 camera: !include camera.yaml     

@@ -4,13 +4,13 @@ default_view:
   view: yes
   name: Settings 
   entities:
-    - sensor.disk_use_percent_
-    - sensor.since_last_boot
+    - sensor.disk_use_percent
+    - sensor.last_boot
     - sensor.weather_temperature
     - binary_sensor.kaipule_im20_doorwindow_sensor_sensor
     - binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2
+    - binary_sensor.flood_sensor1
     - group.date_time
-    - group.neoswitch1
     - group.neoswitch2
     - group.neoswitch3
     - group.neoswitch4
@@ -28,7 +28,6 @@ date_time:
     - sensor.time_utc
     - sensor.time_in_odessa
     - script.test_notification    
-    - script.facebook_notification    
 
 neoswitch1:
   name: Id:16
@@ -186,3 +185,16 @@ power:
     name: Power
     entities:
     - history_graph.power_graphs
+
+###############################################################
+#
+#  NewTab "Automation" 
+#
+###############################################################
+automation:
+  view: yes
+  name: AUTOMATION
+  control: hidden
+  entities:
+    - group.all_automations
+

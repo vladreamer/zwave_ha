@@ -1,4 +1,4 @@
-- name: MailToPykodel 
+- name: mailtopykodel 
   platform: smtp
   server: smtp.gmail.com
   port: 587
@@ -9,11 +9,10 @@
   password: Darish2015 
   recipient:
     - officemailalert@gmail.com 
-  #  - redalertmail@gmail.com
   sender_name: OfficeAssistant
-#
-#
-- name: FB_notify
-  platform: facebook
-  #page_access_token: 
-  page_access_token: EAAHWflWzlxYBAPVX7z0kPBTAHFwUvUtlt2vXOZC9ZC2dqDhiSTCTZAQt8DriREkl3pcCMCTsnhC0ZC5sEa8ZBu3SZCSwtbHjHGxyuZA3hPGXb4dzZBK5qxAcRVfrBfM4srThLqHSWRlJ3W4xXL3La4miqZArQP2WJk304suGZBRwCGsv2GVTMnVq22 
+##
+##
+#- name: FB_notify
+#  platform: facebook
+##page_access_token: 
+#  page_access_token: EAAHWflWzlxYBAPVX7z0kPBTAHFwUvUtlt2vXOZC9ZC2dqDhiSTCTZAQt8DriREkl3pcCMCTsnhC0ZC5sEa8ZBu3SZCSwtbHjHGxyuZA3hPGXb4dzZBK5qxAcRVfrBfM4srThLqHSWRlJ3W4xXL3La4miqZArQP2WJk304suGZBRwCGsv2GVTMnVq22 

@@ -57,7 +57,7 @@ sensor.multisensor2_luminance:
 # External Settings
 #
 #######################################
-sensor.disk_use_percent_:
+sensor.disk_use_percent:
   friendly_name: Disk
 sensor.since_last_boot:
   friendly_name: UpTime
