@@ -1,0 +1,3 @@
+  purge_interval: 1
+  purge_keep_days: 8
+  db_url: mysql://hassuser:vw123wv@core-mariadb/hass?charset=utf8

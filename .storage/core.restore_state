@@ -1,129 +1,170 @@
 {
     "data": [
         {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Switch of Water",
-                    "id": "2018073004",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "8dd9bf258c59443db03216ff822665b7",
-                    "user_id": null
-                },
-                "entity_id": "automation.switch_of_water",
-                "last_changed": "2019-05-09T19:19:21.980780+00:00",
-                "last_updated": "2019-05-09T19:19:21.980780+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Turn off Zooz01 5 minutes after last movement",
-                    "id": "2018091002",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "76351d01e205427eb78ab2c5da9ec6d8",
-                    "user_id": null
-                },
-                "entity_id": "automation.turn_off_zooz01_5_minutes_after_last_movement",
-                "last_changed": "2019-05-09T19:19:21.976062+00:00",
-                "last_updated": "2019-05-09T19:19:21.976062+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Turn on InovelliSW2 when there is movement",
-                    "id": "2018073003",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "00160471035540199d607b2a877ac4e2",
-                    "user_id": null
-                },
-                "entity_id": "automation.turn_on_inovellisw2_when_there_is_movement",
-                "last_changed": "2019-05-09T19:19:21.966394+00:00",
-                "last_updated": "2019-05-09T19:19:21.966394+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Turn off InovelliSW2 3 minutes after last movement",
-                    "id": "2018073002",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "4e84f875ad97466380b7152f94c1980e",
-                    "user_id": null
-                },
-                "entity_id": "automation.turn_off_inovellisw2_3_minutes_after_last_movement",
-                "last_changed": "2019-05-09T19:19:21.956837+00:00",
-                "last_updated": "2019-05-09T19:19:21.956837+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Turn on Zooz01 when there is movement",
-                    "id": "2018091000",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "a498f4a26e3c46f8978c0cf558c46e6c",
-                    "user_id": null
-                },
-                "entity_id": "automation.turn_on_zooz01_when_there_is_movement",
-                "last_changed": "2019-05-09T19:19:21.971013+00:00",
-                "last_updated": "2019-05-09T19:19:21.971013+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Door is open",
-                    "id": "office_sensor_2018073003",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "da5f11097ff844e5aa5923f2033d4337",
-                    "user_id": null
-                },
-                "entity_id": "automation.door_is_open",
-                "last_changed": "2019-05-09T19:19:21.961681+00:00",
-                "last_updated": "2019-05-09T19:19:21.961681+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-05-09T19:19:25.376128+00:00",
-            "state": {
-                "attributes": {
+                    "current": 0,
                     "friendly_name": "Turn off Neo3 if Neo2 on",
                     "id": "2018073001",
-                    "last_triggered": null
+                    "last_triggered": null,
+                    "mode": "single"
                 },
                 "context": {
-                    "id": "de656e0a1bea450dbffd4327ba50ed7c",
+                    "id": "82e84805f7c511eaa0a4612f0110354d",
+                    "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.turn_off_neo3_if_neo2_on",
-                "last_changed": "2019-05-09T19:19:21.985446+00:00",
-                "last_updated": "2019-05-09T19:19:21.985446+00:00",
-                "state": "off"
+                "last_changed": "2020-09-16T02:37:06.510203+00:00",
+                "last_updated": "2020-09-16T02:37:06.510203+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Turn off InovelliSW2 3 minutes after last movement",
+                    "id": "2018073002",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82e89a19f7c511eaacb69b71da4fbc02",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_inovellisw2_3_minutes_after_last_movement",
+                "last_changed": "2020-09-16T02:37:06.512305+00:00",
+                "last_updated": "2020-09-16T02:37:06.512305+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Door is open",
+                    "id": "office_sensor_2018073003",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82eb01adf7c511ea899fd7c00cfb8bcf",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.door_is_open",
+                "last_changed": "2020-09-16T02:37:06.528100+00:00",
+                "last_updated": "2020-09-16T02:37:06.528100+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Turn on InovelliSW2 when there is movement",
+                    "id": "2018073003",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82eb53a8f7c511eaa00595e17076d3cb",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_inovellisw2_when_there_is_movement",
+                "last_changed": "2020-09-16T02:37:06.530167+00:00",
+                "last_updated": "2020-09-16T02:37:06.530167+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Turn on Zooz01 when there is movement",
+                    "id": "2018091000",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82eb9dc1f7c511eabe1095d53d4e48bf",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_zooz01_when_there_is_movement",
+                "last_changed": "2020-09-16T02:37:06.532092+00:00",
+                "last_updated": "2020-09-16T02:37:06.532092+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Turn off Zooz01 5 minutes after last movement",
+                    "id": "2018091002",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82ebef7cf7c511ea998c850af56f542e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_zooz01_5_minutes_after_last_movement",
+                "last_changed": "2020-09-16T02:37:06.534171+00:00",
+                "last_updated": "2020-09-16T02:37:06.534171+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T03:07:37.882287+00:00",
+            "state": {
+                "attributes": {
+                    "current": 0,
+                    "friendly_name": "Switch of Water",
+                    "id": "2018073004",
+                    "last_triggered": null,
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "82eddf0ef7c511ea8014a7dbb2f34e69",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.switch_of_water",
+                "last_changed": "2020-09-16T02:37:06.546842+00:00",
+                "last_updated": "2020-09-16T02:37:06.546842+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-09-16T02:16:09.869948+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "nimda",
+                    "id": "nimda",
+                    "user_id": "40877ce570e04856951837b0eac93c07"
+                },
+                "context": {
+                    "id": "94f623f6f7bd11ea8bd479f3ed68cf95",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.nimda",
+                "last_changed": "2020-09-16T01:40:20.826139+00:00",
+                "last_updated": "2020-09-16T01:40:20.826139+00:00",
+                "state": "unknown"
             }
         }
     ],

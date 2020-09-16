@@ -3,11 +3,18 @@
         "entries": [
             {
                 "connection_class": "unknown",
-                "data": {},
+                "data": {
+                    "user_id": "0e5e18c674b7420aa54650496fb3e693"
+                },
                 "domain": "cast",
                 "entry_id": "b36f2711ae30424da085e7bf8465f3bb",
+                "options": {},
                 "source": "discovery",
+                "system_options": {
+                    "disable_new_entities": false
+                },
                 "title": "Google Cast",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -15,8 +22,13 @@
                 "data": {},
                 "domain": "mqtt",
                 "entry_id": "7de5099ca4b243f89d2fc41cc2d231ad",
+                "options": {},
                 "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
                 "title": "configuration.yaml",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -27,8 +39,13 @@
                 },
                 "domain": "zwave",
                 "entry_id": "ad6555c0f56149a495f9de104d8c666f",
+                "options": {},
                 "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
                 "title": "Z-Wave (import from configuration.yaml)",
+                "unique_id": null,
                 "version": 1
             }
         ]

@@ -13,9 +13,9 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
   customize_glob: !include customize_glob.yaml
-  whitelist_external_dirs:
-     - /home/homeassistant/.homeassistant/downloads
-     - /tmp
+  #whitelist_external_dirs:
+   #  - /home/homeassistant/.homeassistant/downloads
+   #  - /tmp
 
 # Show links to resources in log and frontend
 #introduction:
@@ -29,7 +29,7 @@ config:
 http:
   # Secrets are defined in the file secrets.yaml
   #api_password: !secret http_password
-  api_password: 3health1 
+  #api_password: 3health1 
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: http://smarthome.ehealthinnovation.org:8123
 
@@ -66,22 +66,22 @@ logger:
 # Enables a map showing the location of tracked devices
 map:
 
-recorder:
-  purge_keep_days: 5
-  db_url: mysql://hassuser:vw123wv@localhost/hass 
-  include:
-    domains:
-      - sensor
-      - switch 
-  exclude:
-    domains:
-      - automation
-      - weblink
-      - updater
-    entities:
-      - sun.sun # Don't record sun data
-      - sensor.last_boot # Comes from 'systemmonitor' sensor platform
-      - sensor.date
+#recorder:
+#  purge_keep_days: 5
+#  db_url: mysql://hassuser:vw123wv@localhost/hass 
+#  include:
+#    domains:
+#      - sensor
+#      - switch 
+#  exclude:
+#    domains:
+#      - automation
+#      - weblink
+#      - updater
+#    entities:
+#      - sun.sun # Don't record sun data
+#      - sensor.last_boot # Comes from 'systemmonitor' sensor platform
+#      - sensor.date
 
 mqtt:
   broker: 10.1.2.89
@@ -107,5 +107,6 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 notify: !include notify.yaml
-history_graph: !include history_graph.yaml
+recorder:  !include recorder.yaml
+#history_graph: !include history_graph.yaml
 shell_command: !include shell_command.yaml

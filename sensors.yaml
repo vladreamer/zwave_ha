@@ -52,57 +52,6 @@
   name: 'Office P3 Battery'
   value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.battery }}{% else %}{{ states.sensor.office_p3_battery.state }}{% endif %}"
 
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T1 Temperature'
-  unit_of_measurement: "°C"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 1 %}{{ value_json.temperature_C | round(1) }}{% else %}{{ states.sensor.office_t1_temperature.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T1 Humidity'
-  unit_of_measurement: "%"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 1 %}{{ value_json.humidity | round(1) }}{% else %}{{ states.sensor.office_t1_humidity.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T1 Battery'
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 1 %}{{ value_json.battery }}{% else %}{{ states.sensor.office_t1_battery.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T2 Temperature'
-  unit_of_measurement: "°C"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 2 %}{{ value_json.temperature_C | round(1) }}{% else %}{{ states.sensor.office_t2_temperature.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T2 Humidity'
-  unit_of_measurement: "%"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 2 %}{{ value_json.humidity | round(1) }}{% else %}{{ states.sensor.office_t2_humidity.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T2 Battery'
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 2 %}{{ value_json.battery }}{% else %}{{ states.sensor.office_t2_battery.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T3 Temperature'
-  unit_of_measurement: "°C"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 3 %}{{ value_json.temperature_C | round(1) }}{% else %}{{ states.sensor.office_t3_temperature.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T3 Humidity'
-  unit_of_measurement: "%"
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 3 %}{{ value_json.humidity | round(1) }}{% else %}{{ states.sensor.office_t3_humidity.state }}{% endif %}"
-
-- platform: mqtt
-  state_topic: 'RTL_433/JSON'
-  name: 'Office T3 Battery'
-  value_template: "{% if value_json.model == 'THGR122N' and value_json.channel == 3 %}{{ value_json.battery }}{% else %}{{ states.sensor.office_t3_battery.state }}{% endif %}"
-
 ################
 ## WeatherSensor 
 ################
@@ -121,7 +70,6 @@
 ## SystemStatus 
 ################
 - platform: systemmonitor
-  name: RasbPI
   resources:
   - type: disk_use_percent
     arg: /
@@ -132,7 +80,6 @@
 ##Date and Time
 ###############
 - platform: time_date
-  name: Time and Data
   display_options:
   - 'date'
   - 'date_time'

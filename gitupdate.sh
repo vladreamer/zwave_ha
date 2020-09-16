@@ -1,12 +1,11 @@
 #!/bin/bash
 
-cd /home/homeassistant/.homeassistant
-source /srv/homeassistant/bin/activate
-hass --script check_config
-
+cd /config
+ha core check
+#git rm -r --cached .
 git add .
 git status
-echo -n "Enter the Description for the Change: " 
+echo -n "Enter the Description for the Change: "
 read CHANGE_MSG
 git commit -m "${CHANGE_MSG}"
 git push origin master

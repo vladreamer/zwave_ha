@@ -1,0 +1,166 @@
+2020-09-16 02:36:29 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
+2020-09-16 02:36:30 INFO (MainThread) [homeassistant.setup] Setting up recorder
+2020-09-16 02:36:30 INFO (MainThread) [homeassistant.setup] Setting up http
+2020-09-16 02:36:30 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.1 seconds
+2020-09-16 02:36:30 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2020-09-16 02:36:30 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
+2020-09-16 02:36:30 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:33 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:36 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:39 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:40 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
+2020-09-16 02:36:42 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:45 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:48 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:51 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:54 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:58 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8) (retrying in 3 seconds)
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 27.4 seconds
+2020-09-16 02:36:58 ERROR (MainThread) [homeassistant.setup] Setup failed for recorder: Integration failed to initialize.
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'system_log', 'frontend', 'person', 'onboarding', 'lovelace', 'api', 'search', 'websocket_api', 'device_automation', 'config', 'http', 'auth', 'hassio'}
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up person
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up lovelace
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up device_automation
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up api
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up config
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up auth
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
+2020-09-16 02:36:58 INFO (MainThread) [homeassistant.setup] Setting up hassio
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.5 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain person took 1.1 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 0.6 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.5 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setting up search
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setting up onboarding
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.helpers.storage] Migrating onboarding storage from 1 to 3
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
+2020-09-16 02:36:59 INFO (SyncWorker_3) [homeassistant.loader] Loaded device_tracker from homeassistant.components.device_tracker
+2020-09-16 02:36:59 INFO (SyncWorker_6) [homeassistant.loader] Loaded scene from homeassistant.components.scene
+2020-09-16 02:36:59 INFO (SyncWorker_1) [homeassistant.loader] Loaded webhook from homeassistant.components.webhook
+2020-09-16 02:36:59 INFO (SyncWorker_2) [homeassistant.loader] Loaded zone from homeassistant.components.zone
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 0.8 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'system_health', 'automation', 'cast', 'notify', 'logbook', 'zwave', 'ffmpeg', 'updater', 'script', 'mqtt', 'shell_command', 'history', 'binary_sensor', 'group', 'map', 'camera', 'sensor'}
+2020-09-16 02:36:59 INFO (SyncWorker_2) [homeassistant.loader] Loaded smtp from homeassistant.components.smtp
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setting up zwave
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setup of domain zwave took 0.0 seconds
+2020-09-16 02:36:59 INFO (MainThread) [homeassistant.setup] Setting up ffmpeg
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setting up updater
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setting up script
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setting up shell_command
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setup of domain shell_command took 0.0 seconds
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setting up group
+2020-09-16 02:37:00 INFO (SyncWorker_0) [homeassistant.loader] Loaded template from homeassistant.components.template
+2020-09-16 02:37:00 INFO (SyncWorker_1) [homeassistant.loader] Loaded zeroconf from homeassistant.components.zeroconf
+2020-09-16 02:37:00 INFO (SyncWorker_4) [homeassistant.loader] Loaded cloud from homeassistant.components.cloud
+2020-09-16 02:37:00 INFO (MainThread) [homeassistant.setup] Setting up notify
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.components.zwave] Z-Wave USB path is /dev/serial/by-id/usb-0658_0200-if00
+2020-09-16 02:37:03 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Z-Wave (import from configuration.yaml) for zwave
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/openzwave/option.py", line 78, in __init__
+    raise ZWaveException(u"Can't find device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))
+openzwave.object.ZWaveException: "Zwave Generic Exception : Can't find device /dev/serial/by-id/usb-0658_0200-if00 : ['NoneType: None\\n']"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 222, in async_setup
+    result = await component.async_setup_entry(  # type: ignore
+  File "/usr/src/homeassistant/homeassistant/components/zwave/__init__.py", line 367, in async_setup_entry
+    options = ZWaveOption(
+  File "/usr/local/lib/python3.8/site-packages/openzwave/option.py", line 81, in __init__
+    raise ZWaveException(u"Error when retrieving device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))
+openzwave.object.ZWaveException: 'Zwave Generic Exception : Error when retrieving device /dev/serial/by-id/usb-0658_0200-if00 : [\'Traceback (most recent call last):\\n\', \'  File "/usr/local/lib/python3.8/site-packages/openzwave/option.py", line 78, in __init__\\n    raise ZWaveException(u"Can\\\'t find device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))\\n\', \'openzwave.object.ZWaveException: "Zwave Generic Exception : Can\\\'t find device /dev/serial/by-id/usb-0658_0200-if00 : [\\\'NoneType: None\\\\\\\\n\\\']"\\n\']'
+2020-09-16 02:37:03 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: '/usr/bin/avconv'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/haffmpeg/core.py", line 136, in open
+    self._proc = await self._loop.run_in_executor(None, proc_func)
+  File "/usr/local/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/avconv'
+2020-09-16 02:37:03 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.setup] Setup of domain ffmpeg took 4.1 seconds
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.setup] Setting up system_health
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 0.0 seconds
+2020-09-16 02:37:03 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of logbook. Setup failed for dependencies: recorder
+2020-09-16 02:37:03 ERROR (MainThread) [homeassistant.setup] Setup failed for logbook: Could not set up all dependencies.
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
+2020-09-16 02:37:03 INFO (MainThread) [homeassistant.setup] Setup of domain script took 3.4 seconds
+2020-09-16 02:37:03 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of history. Setup failed for dependencies: recorder
+2020-09-16 02:37:03 ERROR (MainThread) [homeassistant.setup] Setup failed for history: Could not set up all dependencies.
+2020-09-16 02:37:04 INFO (MainThread) [homeassistant.setup] Setting up map
+2020-09-16 02:37:04 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
+2020-09-16 02:37:04 INFO (SyncWorker_7) [homeassistant.loader] Loaded mjpeg from homeassistant.components.mjpeg
+2020-09-16 02:37:05 INFO (SyncWorker_0) [homeassistant.loader] Loaded yr from homeassistant.components.yr
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setting up mqtt
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setup of domain mqtt took 0.0 seconds
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 4.6 seconds
+2020-09-16 02:37:05 INFO (SyncWorker_1) [homeassistant.loader] Loaded alexa from homeassistant.components.alexa
+2020-09-16 02:37:05 INFO (SyncWorker_6) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setting up camera
+2020-09-16 02:37:05 INFO (SyncWorker_5) [homeassistant.loader] Loaded systemmonitor from homeassistant.components.systemmonitor
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 4.7 seconds
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setting up automation
+2020-09-16 02:37:05 INFO (SyncWorker_1) [homeassistant.loader] Loaded time_date from homeassistant.components.time_date
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
+2020-09-16 02:37:05 INFO (SyncWorker_7) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2020-09-16 02:37:05 INFO (MainThread) [homeassistant.setup] Setup of domain camera took 0.5 seconds
+2020-09-16 02:37:05 INFO (SyncWorker_3) [homeassistant.loader] Loaded worldclock from homeassistant.components.worldclock
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.yr
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.systemmonitor
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.time_date
+2020-09-16 02:37:06 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.worldclock
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setting up cast
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setup of domain cast took 0.0 seconds
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 1.3 seconds
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.0 seconds
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.setup] Setup of domain group took 7.2 seconds
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2020-09-16 02:37:07 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.114.4', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.3', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '243', 'host_os': 'HassOS 4.13', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-09-16 02:37:37 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect to MQTT server due to exception: [Errno 110] Operation timed out
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 69.29s
+2020-09-16 02:37:37 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.core] Timer:starting
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.turn_off_neo3_if_neo2_on] Initialized trigger Turn off Neo3 if Neo2 on
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Initialized trigger Turn off InovelliSW2 3 minutes after last movement
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.door_is_open] Initialized trigger Door is open
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Initialized trigger Turn on InovelliSW2 when there is movement
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Initialized trigger Turn on Zooz01 when there is movement
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Initialized trigger Turn off Zooz01 5 minutes after last movement
+2020-09-16 02:37:38 INFO (MainThread) [homeassistant.components.automation.switch_of_water] Initialized trigger Switch of Water

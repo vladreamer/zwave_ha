@@ -1,7 +1,7 @@
 ### Groups ###
 # Views
 default_view:
-  view: yes
+  #view: yes
   name: Settings 
   entities:
     - sensor.disk_use_percent
@@ -112,7 +112,7 @@ batteries:
     - sensor.office_p3_battery
 
 security:
-  view: yes
+  #view: yes
   name: Security
   entities:
     - group.cameras
@@ -120,14 +120,14 @@ security:
 
 cameras:
   name: SecurityCameras
-  control: hidden
+  #control: hidden
   entities:
     - camera.camera1 
     - camera.camera2
     - camera.camera3
 
 temp_humid:
-  view: yes
+  #view: yes
   name: Temp&Humid
   entities:
     - group.temp
@@ -135,7 +135,7 @@ temp_humid:
 
 temp:
   name: Temperature 
-  control: hidden
+  #control: hidden
   entities:
     - sensor.multisensor1_temperature 
     - sensor.multisensor2_temperature 
@@ -145,7 +145,7 @@ temp:
 
 humid:
   name: Humidity 
-  control: hidden
+  #control: hidden
   entities:
     - sensor.multisensor1_relative_humidity 
     - sensor.multisensor2_relative_humidity 
@@ -154,13 +154,13 @@ humid:
     - sensor.office_p3_humidity
 
 power_switch:
-  view: yes
+  #view: yes
   name: Switches
   entities:
     - group.all_switches
 
 graphs:
-  view: yes
+  #view: yes
   name: Monitoring Chart
   icon: mdi:chart-line-variant
   entities:
@@ -192,9 +192,9 @@ power:
 #
 ###############################################################
 automation:
-  view: yes
+  #view: yes
   name: AUTOMATION
-  control: hidden
+  #control: hidden
   entities:
     - group.all_automations
 
