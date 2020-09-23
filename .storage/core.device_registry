@@ -1,274 +1,305 @@
 {
+    "version": 1,
+    "key": "core.device_registry",
     "data": {
         "devices": [
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "95975669c7fc4adeb29d8454be77e026",
                 "identifiers": [
                     [
                         "zwave",
-                        2
+                        1
                     ]
                 ],
-                "manufacturer": "Neo CoolCam",
-                "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
+                "manufacturer": "AEON Labs",
+                "model": "ZW090 Z-Stick Gen5 US",
+                "name": "AEON Labs ZW090 Z-Stick Gen5 US",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c3291745fa2611eaa48969738e275101",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "f3d178f20b994b228615dd12ea307425",
                 "identifiers": [
                     [
                         "zwave",
-                        3
+                        6
                     ]
                 ],
-                "manufacturer": "Neo CoolCam",
+                "manufacturer": "Shenzhen Neo Electronics Co Ltd",
                 "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
+                "name": "Shenzhen Neo Electronics Co Ltd Power plug 12A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c461ddc6fa2611eabe048dadce79f4cb",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "bc8812e3b66a46f6916ad556bd15460e",
                 "identifiers": [
                     [
                         "zwave",
-                        4
+                        7
                     ]
                 ],
-                "manufacturer": "Neo CoolCam",
+                "manufacturer": "Shenzhen Neo Electronics Co Ltd",
                 "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
+                "name": "Shenzhen Neo Electronics Co Ltd Power plug 12A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c4638fcafa2611ea8b066f86ffef50ae",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "3226af2066204b9489a8d7d5122097b8",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8
+                    ]
+                ],
+                "manufacturer": "Shenzhen Neo Electronics Co Ltd",
+                "model": "Power plug 12A",
+                "name": "Shenzhen Neo Electronics Co Ltd Power plug 12A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c4fb1072fa2611eaa154a971379968db",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "Shenzhen Neo Electronics Co Ltd",
+                "model": "Power plug 12A",
+                "name": "Shenzhen Neo Electronics Co Ltd Power plug 12A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c59fe9cffa2611ea968efbcabdea6bb0",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "Shenzhen Neo Electronics Co Ltd",
+                "model": "Power plug 12A",
+                "name": "Shenzhen Neo Electronics Co Ltd Power plug 12A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c5a1bea4fa2611ea9ea26fc59c41748d",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
                 "identifiers": [
                     [
                         "zwave",
                         11
                     ]
                 ],
-                "manufacturer": "Vision",
-                "model": "ZP3111 Multisensor 4in1",
-                "name": "Vision ZP3111 Multisensor 4in1",
-                "sw_version": null
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "1994c6a6b1c840c0a41f7147fd2c6d60",
-                "identifiers": [
-                    [
-                        "zwave",
-                        14
-                    ]
-                ],
-                "manufacturer": "Vision",
-                "model": "ZP3111 Multisensor 4in1",
-                "name": "Vision ZP3111 Multisensor 4in1",
-                "sw_version": null
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "e88292c188b04a3fb5ea078e80df51e9",
-                "identifiers": [
-                    [
-                        "zwave",
-                        16
-                    ]
-                ],
-                "manufacturer": "Neo CoolCam",
-                "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "f63c95bf7f6a43e1860518bb073fcddb",
-                "identifiers": [
-                    [
-                        "zwave",
-                        18
-                    ]
-                ],
-                "manufacturer": "Neo CoolCam",
-                "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "118b536360564982aa3244a2a463e612",
-                "identifiers": [
-                    [
-                        "zwave",
-                        20
-                    ]
-                ],
                 "manufacturer": "Zooz",
                 "model": "ZEN06",
                 "name": "Zooz ZEN06",
-                "sw_version": null
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c5a34e19fa2611eaa6f82bf2c18b677f",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "ca030e212d8144c891f3ce3a7c2feecc",
                 "identifiers": [
                     [
                         "zwave",
-                        22
+                        12
                     ]
                 ],
-                "manufacturer": "Zooz",
+                "manufacturer": "Zooz (Willis Electric)",
                 "model": "Unknown: type=2500, id=2500",
-                "name": "Zooz Unknown: type=2500, id=2500",
-                "sw_version": null
+                "name": "Zooz (Willis Electric) Unknown: type=2500, id=2500",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c5a561a4fa2611ea91ad1b1df86c444d",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "f774ecf93b7348508fc9a15288d8c058",
                 "identifiers": [
                     [
                         "zwave",
-                        23
+                        12,
+                        2
                     ]
                 ],
-                "manufacturer": "Homeseer",
-                "model": "HSM200 Wireless Multi-Sensor",
-                "name": "EZM",
-                "sw_version": null
+                "manufacturer": "Zooz (Willis Electric)",
+                "model": "Unknown: type=2500, id=2500",
+                "name": "Zooz (Willis Electric) Unknown: type=2500, id=2500 (2)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d3c50989fa2611eaa9bf551ca2a3d0cd",
+                "via_device_id": "c5a561a4fa2611ea91ad1b1df86c444d",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "ee9d3bdd3e954c37a1670ee849e35641",
                 "identifiers": [
                     [
                         "zwave",
-                        24
+                        12,
+                        3
                     ]
                 ],
-                "manufacturer": "Kaipule",
+                "manufacturer": "Zooz (Willis Electric)",
+                "model": "Unknown: type=2500, id=2500",
+                "name": "Zooz (Willis Electric) Unknown: type=2500, id=2500 (3)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d3ce7b2efa2611eab4a29b1312e607bf",
+                "via_device_id": "c5a561a4fa2611ea91ad1b1df86c444d",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Vision Security",
+                "model": "ZP3111 Multisensor 4in1",
+                "name": "Vision Security ZP3111 Multisensor 4in1",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "83e75541fa2911eaa11209228e881625",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "Vision Security",
+                "model": "ZP3111 Multisensor 4in1",
+                "name": "Vision Security ZP3111 Multisensor 4in1",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "57fee8c3fa2d11ea925b61554c6b9872",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ad6555c0f56149a495f9de104d8c666f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "Kaipule Technology Co. Ltd",
                 "model": "IM20 Door/Window Sensor",
-                "name": "Kaipule IM20 Door/Window Sensor",
-                "sw_version": null
+                "name": "Kaipule Technology Co. Ltd IM20 Door/Window Sensor",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2c5af921faca11ea82787bb538bd04c8",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
+                "area_id": null,
+                "name_by_user": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "ad6555c0f56149a495f9de104d8c666f"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "90e211986189492c89a27b5a0329432b",
                 "identifiers": [
                     [
                         "zwave",
-                        25
+                        4
                     ]
                 ],
-                "manufacturer": "Kaipule",
+                "manufacturer": "Kaipule Technology Co. Ltd",
                 "model": "IM20 Door/Window Sensor",
-                "name": "Kaipule IM20 Door/Window Sensor",
-                "sw_version": null
-            },
-            {
+                "name": "Kaipule Technology Co. Ltd IM20 Door/Window Sensor",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2b03d2a6facb11ea9e1b47abdc1f8588",
+                "via_device_id": "c3291745fa2611eaa48969738e275101",
                 "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "c070dd588dae409898e9839658ea39d4",
-                "identifiers": [
-                    [
-                        "zwave",
-                        26
-                    ]
-                ],
-                "manufacturer": "Neo CoolCam",
-                "model": "Power plug 12A",
-                "name": "Neo CoolCam Power plug 12A",
-                "sw_version": null
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "ad6555c0f56149a495f9de104d8c666f"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "591d9d5f756e409082e493c8ab83e7cb",
-                "identifiers": [
-                    [
-                        "zwave",
-                        27
-                    ]
-                ],
-                "manufacturer": "Everspring",
-                "model": "ST812 Flood Detector",
-                "name": "Everspring ST812 Flood Detector",
-                "sw_version": null
+                "name_by_user": null
             }
-        ]
-    },
-    "key": "core.device_registry",
-    "version": 1
+        ],
+        "deleted_devices": []
+    }
 }

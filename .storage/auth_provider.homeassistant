@@ -1,13 +1,17 @@
 {
+    "version": 1,
+    "key": "auth_provider.homeassistant",
     "data": {
         "salt": "ff8dced8ca165e509d3fc1db77acc621537fe179b673f4ce2ae96dc3949151b4",
         "users": [
             {
                 "password": "JDJiJDEyJFRBOHYwR1lkMGppa2JFQTZKUnNjbk9GWUpFem5xYkNYa0NqcFZ0V0cubHRneUZ4RnozdHpl",
                 "username": "viewer"
+            },
+            {
+                "username": "nimda",
+                "password": "JDJiJDEyJEp1SHBYWWhxMXpEQ3R3WDV6R09jTE9HYTNKVjQwNEw2VG5GUUQ3U0xXTEt0MDJlemh5V0Fx"
             }
         ]
-    },
-    "key": "auth_provider.homeassistant",
-    "version": 1
+    }
 }

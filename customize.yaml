@@ -26,28 +26,28 @@ switch.inovelli_2ch_switch_3:
 # Multisensors Settings
 #
 #######################################
-sensor.multisensor1_relative_humidity:
-  friendly_name: OfficeHumid
+sensor.vision_security_zp3111_multisensor_4in1_relative_humidity:
+  friendly_name: Office_Humid
   icon: mdi:water-percent
   unit_of_measurement: '%' 
-sensor.multisensor2_relative_humidity:
-  friendly_name: ServerHumid
+sensor.vision_security_zp3111_multisensor_4in1_relative_humidity_2:
+  friendly_name: Server_Humid
   icon: mdi:water-percent
   unit_of_measurement: '%'
-sensor.multisensor1_temperature:
-  friendly_name: OfficeTemp
+sensor.vision_security_zp3111_multisensor_4in1_temperature:
+  friendly_name: Office_Temp
   icon: mdi:temperature-celsius
   unit_of_measurement: '°C'
-sensor.multisensor2_temperature:
-  friendly_name: ServerTemp
+sensor.vision_security_zp3111_multisensor_4in1_temperature_2:
+  friendly_name: ServerRM_Temp
   icon: mdi:temperature-celsius
   unit_of_measurement: '°C'
-sensor.multisensor1_luminance:
-  friendly_name: Luminance1
+sensor.vision_security_zp3111_multisensor_4in1_luminance:
+  friendly_name: Office_Lum
   icon: mdi:brightness-5
   unit_of_measurement: '%'
-sensor.multisensor2_luminance:
-  friendly_name: Luminance2
+sensor.vision_security_zp3111_multisensor_4in1_luminance_2:
+  friendly_name: ServerRM_Lum
   icon: mdi:brightness-5
   unit_of_measurement: '%'
 #
@@ -68,6 +68,59 @@ sensor.weather_temperature:
 #sensor.time
 #  friendly_name: Time in Toronto
 #
+########################################
+#
+# Switches
+#
+########################################
+switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch:
+  friendly_name: AppleAP3-TechStor_Id:6_SW
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage:
+  friendly_name: AppleAP3-TechStor_Id:6_V
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current:
+  friendly_name: AppleAP3-TechStor_Id:6_A
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power:
+  friendly_name: AppleAP3-TechStor_Id:6_W
+switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_2:
+  friendly_name: AppleAP1-OBS3_Id:7_SW
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_2:
+  friendly_name: AppleAP1-OBS3_Id:7_V
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_2:
+  friendly_name: AppleAP1-OBS3_Id:7_A
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_2:
+  friendly_name: AppleAP4_OBS2_Id:7_W
+switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_3:
+  friendly_name: AppleAP4_OBS2_Id:8_SW
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_3:
+  friendly_name: AppleAP4_OBS2_Id:8_V
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_3:
+  friendly_name: AppleAP4_OBS2_Id:8_A
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_3:
+  friendly_name: AppleAP1-OBS3_Id:8_W
+switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_4:
+  friendly_name: DynamicWAP_Id:9_SW  
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_4:
+  friendly_name: DynamicWAP_Id:9_V
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_4:
+  friendly_name: DynamicWAP_Id:9_A
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_4:
+  friendly_name: DynamicWAP_Id:9_W
+switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_5:
+  friendly_name: Office_Id:10_SW
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_5:
+  friendly_name: Office_Id:10_V
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_5:
+  friendly_name: Office_Id:10_A
+sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_5:
+  friendly_name: Office_Id:10_W
+switch.zooz_zen06_switch:
+  friendly_name: SrvRoomSW  
+sensor.zooz_zen06_power:
+  friendly_name: SrvRoomSW_Pwr
+switch.zooz_willis_electric_unknown_type_2500_id_2500_switch:
+  friendly_name: OfficeSW1_Light
+switch.zooz_willis_electric_unknown_type_2500_id_2500_switch_2:
+  friendly_name: OfficeSW2_PC
 #
 #######################################
 #

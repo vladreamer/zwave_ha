@@ -1,173 +1,153 @@
 {
+    "version": 1,
+    "key": "core.restore_state",
     "data": [
         {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
             "state": {
-                "attributes": {
-                    "current": 0,
-                    "friendly_name": "Turn off Neo3 if Neo2 on",
-                    "id": "2018073001",
-                    "last_triggered": null,
-                    "mode": "single"
-                },
-                "context": {
-                    "id": "82e84805f7c511eaa0a4612f0110354d",
-                    "parent_id": null,
-                    "user_id": null
-                },
                 "entity_id": "automation.turn_off_neo3_if_neo2_on",
-                "last_changed": "2020-09-16T02:37:06.510203+00:00",
-                "last_updated": "2020-09-16T02:37:06.510203+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Turn off InovelliSW2 3 minutes after last movement",
-                    "id": "2018073002",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018073001",
+                    "friendly_name": "Turn off Neo3 if Neo2 on"
                 },
+                "last_changed": "2020-09-21T17:35:28.764942+00:00",
+                "last_updated": "2020-09-21T17:35:28.764942+00:00",
                 "context": {
-                    "id": "82e89a19f7c511eaacb69b71da4fbc02",
+                    "id": "d7386060fc3011ea8f43c5599df10914",
                     "parent_id": null,
                     "user_id": null
-                },
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
+        },
+        {
+            "state": {
                 "entity_id": "automation.turn_off_inovellisw2_3_minutes_after_last_movement",
-                "last_changed": "2020-09-16T02:37:06.512305+00:00",
-                "last_updated": "2020-09-16T02:37:06.512305+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Door is open",
-                    "id": "office_sensor_2018073003",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018073002",
+                    "friendly_name": "Turn off InovelliSW2 3 minutes after last movement"
                 },
+                "last_changed": "2020-09-21T17:35:30.390779+00:00",
+                "last_updated": "2020-09-21T17:35:30.390779+00:00",
                 "context": {
-                    "id": "82eb01adf7c511ea899fd7c00cfb8bcf",
+                    "id": "d8307437fc3011eaa69f3b22a4ac5ee5",
                     "parent_id": null,
                     "user_id": null
-                },
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
+        },
+        {
+            "state": {
                 "entity_id": "automation.door_is_open",
-                "last_changed": "2020-09-16T02:37:06.528100+00:00",
-                "last_updated": "2020-09-16T02:37:06.528100+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Turn on InovelliSW2 when there is movement",
-                    "id": "2018073003",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "office_sensor_2018073003",
+                    "friendly_name": "Door is open"
                 },
+                "last_changed": "2020-09-21T17:35:30.419974+00:00",
+                "last_updated": "2020-09-21T17:35:30.419974+00:00",
                 "context": {
-                    "id": "82eb53a8f7c511eaa00595e17076d3cb",
+                    "id": "d834e85bfc3011ea963d3fe85b5a96a5",
                     "parent_id": null,
                     "user_id": null
-                },
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
+        },
+        {
+            "state": {
                 "entity_id": "automation.turn_on_inovellisw2_when_there_is_movement",
-                "last_changed": "2020-09-16T02:37:06.530167+00:00",
-                "last_updated": "2020-09-16T02:37:06.530167+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Turn on Zooz01 when there is movement",
-                    "id": "2018091000",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018073003",
+                    "friendly_name": "Turn on InovelliSW2 when there is movement"
                 },
+                "last_changed": "2020-09-21T17:35:30.430952+00:00",
+                "last_updated": "2020-09-21T17:35:30.430952+00:00",
                 "context": {
-                    "id": "82eb9dc1f7c511eabe1095d53d4e48bf",
+                    "id": "d83565f4fc3011ea84a63f13d084cecf",
                     "parent_id": null,
                     "user_id": null
-                },
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
+        },
+        {
+            "state": {
                 "entity_id": "automation.turn_on_zooz01_when_there_is_movement",
-                "last_changed": "2020-09-16T02:37:06.532092+00:00",
-                "last_updated": "2020-09-16T02:37:06.532092+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Turn off Zooz01 5 minutes after last movement",
-                    "id": "2018091002",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018091000",
+                    "friendly_name": "Turn on Zooz01 when there is movement"
                 },
+                "last_changed": "2020-09-21T17:35:30.434441+00:00",
+                "last_updated": "2020-09-21T17:35:30.434441+00:00",
                 "context": {
-                    "id": "82ebef7cf7c511ea998c850af56f542e",
+                    "id": "d8371de8fc3011eab6f2c15c50df1fec",
                     "parent_id": null,
                     "user_id": null
-                },
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
+        },
+        {
+            "state": {
                 "entity_id": "automation.turn_off_zooz01_5_minutes_after_last_movement",
-                "last_changed": "2020-09-16T02:37:06.534171+00:00",
-                "last_updated": "2020-09-16T02:37:06.534171+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-09-16T03:07:37.882287+00:00",
-            "state": {
+                "state": "on",
                 "attributes": {
-                    "current": 0,
-                    "friendly_name": "Switch of Water",
-                    "id": "2018073004",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018091002",
+                    "friendly_name": "Turn off Zooz01 5 minutes after last movement"
                 },
+                "last_changed": "2020-09-21T17:35:30.507184+00:00",
+                "last_updated": "2020-09-21T17:35:30.507184+00:00",
                 "context": {
-                    "id": "82eddf0ef7c511ea8014a7dbb2f34e69",
+                    "id": "d8423179fc3011ea8096cb1ea2dfaf21",
                     "parent_id": null,
                     "user_id": null
-                },
-                "entity_id": "automation.switch_of_water",
-                "last_changed": "2020-09-16T02:37:06.546842+00:00",
-                "last_updated": "2020-09-16T02:37:06.546842+00:00",
-                "state": "on"
-            }
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
         },
         {
-            "last_seen": "2020-09-16T02:16:09.869948+00:00",
             "state": {
+                "entity_id": "automation.switch_of_water",
+                "state": "on",
                 "attributes": {
-                    "editable": true,
-                    "friendly_name": "nimda",
-                    "id": "nimda",
-                    "user_id": "40877ce570e04856951837b0eac93c07"
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2018073004",
+                    "friendly_name": "Switch of Water"
                 },
+                "last_changed": "2020-09-21T17:35:30.520780+00:00",
+                "last_updated": "2020-09-21T17:35:30.520780+00:00",
                 "context": {
-                    "id": "94f623f6f7bd11ea8bd479f3ed68cf95",
+                    "id": "d842ad94fc3011ea8f57db58d27b6d59",
                     "parent_id": null,
                     "user_id": null
-                },
-                "entity_id": "person.nimda",
-                "last_changed": "2020-09-16T01:40:20.826139+00:00",
-                "last_updated": "2020-09-16T01:40:20.826139+00:00",
-                "state": "unknown"
-            }
+                }
+            },
+            "last_seen": "2020-09-23T03:05:33.399697+00:00"
         }
-    ],
-    "key": "core.restore_state",
-    "version": 1
+    ]
 }

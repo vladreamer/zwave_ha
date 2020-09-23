@@ -1,433 +1,23 @@
 {
+    "version": 1,
+    "key": "lovelace",
     "data": {
         "config": {
             "title": "Centre for Global eHealth Innovation",
             "views": [
                 {
+                    "path": "default_view",
+                    "title": "OFFICE",
+                    "panel": false,
                     "badges": [
                         {
-                            "entity": "binary_sensor.updater"
-                        },
-                        {
-                            "entity": "binary_sensor.neo_coolcam_water_leakage_detector_sensor"
-                        },
-                        {
-                            "entity": "binary_sensor.multisensor2_sensor"
-                        },
-                        {
-                            "entity": "binary_sensor.multisensor1_sensor"
-                        },
-                        {
-                            "entity": "binary_sensor.vision_zp3111_multisensor_4in1_sensor"
-                        },
-                        {
-                            "entity": "binary_sensor.homeseer_hsm200_wireless_multisensor_sensor"
-                        },
-                        {
-                            "entity": "sensor.date_time"
-                        },
-                        {
-                            "entity": "sensor.time_date"
+                            "entity": "sensor.last_boot"
                         },
                         {
                             "entity": "sensor.processor_use"
-                        },
-                        {
-                            "entity": "sensor.floodsensor1_battery"
-                        },
-                        {
-                            "entity": "sensor.weather_precipitation"
-                        },
-                        {
-                            "entity": "sensor.weather_wind_speed"
-                        },
-                        {
-                            "entity": "sensor.weather_pressure"
-                        },
-                        {
-                            "entity": "sensor.weather_humidity"
-                        },
-                        {
-                            "entity": "sensor.weather_dewpoint_temperature"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_exporting_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_power_management_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_type_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_level_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_energy_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_exporting_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_power_management_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_type_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_level_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_energy_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_exporting_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_power_management_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_type_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_level_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_energy_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_water_leakage_detector_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_water_leakage_detector_flood"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_water_leakage_detector_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_water_leakage_detector_alarm_level"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_6"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_6"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_7"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_7"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_8"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_8"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_9"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_9"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_10"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_10"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_11"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_11"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_12"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_12"
-                        },
-                        {
-                            "entity": "sensor.multisensor2_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.multisensor2_burglar"
-                        },
-                        {
-                            "entity": "sensor.multisensor2_system"
-                        },
-                        {
-                            "entity": "sensor.multisensor2_emergency"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_burglar"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_power_management"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_system"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.multisensor1_alarm_level"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_temperature"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_luminance"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_relative_humidity"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_alarm_level"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_burglar"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_power_management"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_system"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_emergency"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_alarm_type_2"
-                        },
-                        {
-                            "entity": "sensor.vision_zp3111_multisensor_4in1_alarm_level_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_exporting_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_type_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_level_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_energy_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_power_management_5"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_5_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_5_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_5_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_5_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_5_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_5_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_5_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_5_4"
-                        },
-                        {
-                            "entity": "sensor.zooz_zen06_energy01"
-                        },
-                        {
-                            "entity": "sensor.zooz_zen06_previous_reading01"
-                        },
-                        {
-                            "entity": "sensor.homeseer_hsm200_wireless_multisensor_temperature"
-                        },
-                        {
-                            "entity": "sensor.homeseer_hsm200_wireless_multisensor_luminance"
-                        },
-                        {
-                            "entity": "sensor.homeseer_hsm200_wireless_multisensor_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.homeseer_hsm200_wireless_multisensor_burglar"
-                        },
-                        {
-                            "entity": "sensor.ezm_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.ezm_alarm_level"
-                        },
-                        {
-                            "entity": "sensor.zooz_zen06_previous_reading"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_sourcenodeid"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_access_control"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_burglar"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_alarm_level"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_sourcenodeid_2"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_access_control_2"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_burglar_2"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_alarm_type_2"
-                        },
-                        {
-                            "entity": "sensor.kaipule_im20_doorwindow_sensor_alarm_level_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_exporting_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_type_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_sourcenodeid_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_alarm_level_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_energy_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_power_management_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_1_1"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_1_2"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_1_3"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_previous_reading_1_4"
-                        },
-                        {
-                            "entity": "sensor.neo_coolcam_power_plug_12a_interval_1_4"
-                        },
-                        {
-                            "entity": "sensor.everspring_st812_flood_detector_flood"
-                        },
-                        {
-                            "entity": "sensor.everspring_st812_flood_detector_alarm_type"
-                        },
-                        {
-                            "entity": "sensor.everspring_st812_flood_detector_alarm_level"
                         }
                     ],
                     "cards": [
-                        {
-                            "entities": [
-                                "sensor.disk_use_percent",
-                                "sensor.last_boot",
-                                "sensor.weather_temperature",
-                                "binary_sensor.kaipule_im20_doorwindow_sensor_sensor",
-                                "binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2",
-                                "binary_sensor.flood_sensor1",
-                                "group.date_time",
-                                "group.neoswitch2",
-                                "group.neoswitch3",
-                                "group.neoswitch4",
-                                "group.neoswitch5",
-                                "group.zoozswitch1",
-                                "group.multisensor1",
-                                "group.multisensor2",
-                                "group.batteries"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Settings",
-                            "type": "entities"
-                        },
                         {
                             "entities": [
                                 "sensor.time",
@@ -442,81 +32,144 @@
                         },
                         {
                             "entities": [
-                                "sensor.neo_coolcam_power_plug_12a_power_1",
-                                "sensor.neo_coolcam_power_plug_12a_voltage_1",
-                                "sensor.neo_coolcam_power_plug_12a_current_1",
-                                "switch.neo_coolcam_power_plug_12a_switch_1"
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_4"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_4"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_4"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_4"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "Id:16",
+                            "show_header_toggle": false,
+                            "title": "DynamicWAP_Id:9",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.neo_coolcam_power_plug_12a_power_2",
-                                "sensor.neo_coolcam_power_plug_12a_voltage_2",
-                                "sensor.neo_coolcam_power_plug_12a_current_2",
-                                "switch.neo_coolcam_power_plug_12a_switch_2"
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "AppleAP1-OBS3_Id:2",
+                            "show_header_toggle": false,
+                            "title": "AppleAP3-TechStor_Id:6",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.neo_coolcam_power_plug_12a_power_3",
-                                "sensor.neo_coolcam_power_plug_12a_voltage_3",
-                                "sensor.neo_coolcam_power_plug_12a_current_3",
-                                "switch.neo_coolcam_power_plug_12a_switch_3"
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_2"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_2"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_2"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_2"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "AppleAP4-OBS2_Id:3",
+                            "show_header_toggle": false,
+                            "title": "AppleAP1-OBS3_Id:7",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.neo_coolcam_power_plug_12a_power_4",
-                                "sensor.neo_coolcam_power_plug_12a_voltage_4",
-                                "sensor.neo_coolcam_power_plug_12a_current_4",
-                                "switch.neo_coolcam_power_plug_12a_switch_4"
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_5"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_5"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_5"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_5"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "DynamicWAP_Id:4",
+                            "show_header_toggle": false,
+                            "title": "Office_Id:10",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.neo_coolcam_power_plug_12a_power_5",
-                                "sensor.neo_coolcam_power_plug_12a_voltage_5",
-                                "sensor.neo_coolcam_power_plug_12a_current_5",
-                                "switch.neo_coolcam_power_plug_12a_switch_5"
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_3"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_voltage_3"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_current_3"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_3"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "AppleAP3-TechStrg_Id:18",
+                            "show_header_toggle": false,
+                            "title": "AppleAP4_OBS2_Id:8",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.zooz_zen06_power01",
-                                "sensor.zooz_zen06_voltage01",
-                                "sensor.zooz_zen06_current01",
-                                "switch.zooz_zen06_switch01"
+                                {
+                                    "entity": "sensor.zooz_zen06_power"
+                                },
+                                {
+                                    "entity": "sensor.zooz_zen06_voltage"
+                                },
+                                {
+                                    "entity": "sensor.zooz_zen06_current"
+                                },
+                                {
+                                    "entity": "switch.zooz_zen06_switch"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "ServerRoom_Id:20",
+                            "show_header_toggle": false,
+                            "title": "ServerRoom_Id:11",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "binary_sensor.multisensor1_motion",
-                                "binary_sensor.multisensor1_tamper",
-                                "sensor.multisensor1_luminance",
-                                "sensor.multisensor1_relative_humidity",
-                                "sensor.multisensor1_temperature",
-                                "sensor.multisensor1_battery",
-                                "switch.inovelli_2ch_switch",
-                                "switch.inovelli_2ch_switch_2",
-                                "switch.inovelli_2ch_switch_3"
+                                {
+                                    "entity": "binary_sensor.multisensor2_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.multisensor2_tamper"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_luminance_2"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity_2"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature_2"
+                                },
+                                {
+                                    "entity": "sensor.multisensor2_battery"
+                                },
+                                {
+                                    "entity": "switch.zooz_willis_electric_unknown_type_2500_id_2500_switch"
+                                },
+                                {
+                                    "entity": "switch.zooz_willis_electric_unknown_type_2500_id_2500_switch_2"
+                                }
                             ],
                             "show_header_toggle": true,
                             "title": "RoomMultiSensor1_Id:14",
@@ -524,12 +177,24 @@
                         },
                         {
                             "entities": [
-                                "binary_sensor.multisensor2_motion",
-                                "binary_sensor.multisensor2_tamper",
-                                "sensor.multisensor2_luminance",
-                                "sensor.multisensor2_relative_humidity",
-                                "sensor.multisensor2_temperature",
-                                "sensor.multisensor2_battery"
+                                {
+                                    "entity": "binary_sensor.multisensor1_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.multisensor1_tamper"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_luminance"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.multisensor2_battery"
+                                }
                             ],
                             "show_header_toggle": true,
                             "title": "SrvRoomMultiSensor2_Id:11",
@@ -546,15 +211,14 @@
                             "show_header_toggle": true,
                             "title": "Batteries",
                             "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "group.cameras"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Security",
-                            "type": "entities"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "title": "SECURITY",
+                    "path": "security",
+                    "badges": [],
+                    "cards": [
                         {
                             "entity": "camera.camera1",
                             "type": "picture-entity"
@@ -566,139 +230,219 @@
                         {
                             "entity": "camera.camera3",
                             "type": "picture-entity"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "title": "SWITCHES",
+                    "path": "switches",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_2"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_3"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_4"
+                                },
+                                {
+                                    "entity": "switch.shenzhen_neo_electronics_co_ltd_power_plug_12a_switch_5"
+                                },
+                                {
+                                    "entity": "switch.zooz_willis_electric_unknown_type_2500_id_2500_switch"
+                                },
+                                {
+                                    "entity": "switch.zooz_willis_electric_unknown_type_2500_id_2500_switch_2"
+                                },
+                                {
+                                    "entity": "switch.zooz_zen06_switch"
+                                }
+                            ],
+                            "show_header_toggle": false
+                        }
+                    ]
+                },
+                {
+                    "title": "MONITOR",
+                    "path": "monitor",
+                    "badges": [],
+                    "cards": [
                         {
                             "entities": [
-                                "group.temp",
-                                "group.humid"
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature_2"
+                                },
+                                {
+                                    "entity": "sensor.office_p1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.office_p2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.office_p3_temperature"
+                                }
                             ],
-                            "show_header_toggle": true,
-                            "title": "Temp&Humid",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "sensor.multisensor1_temperature",
-                                "sensor.multisensor2_temperature",
-                                "sensor.office_p1_temperature",
-                                "sensor.office_p2_temperature",
-                                "sensor.office_p3_temperature"
-                            ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "Temperature",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.multisensor1_relative_humidity",
-                                "sensor.multisensor2_relative_humidity",
-                                "sensor.office_p1_humidity",
-                                "sensor.office_p2_humidity",
-                                "sensor.office_p3_humidity"
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity_2"
+                                },
+                                {
+                                    "entity": "sensor.office_p1_humidity"
+                                },
+                                {
+                                    "entity": "sensor.office_p2_humidity"
+                                },
+                                {
+                                    "entity": "sensor.office_p3_humidity"
+                                }
                             ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "Humidity",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "group.all_switches"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Switches",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "group.temperature",
-                                "group.humidity",
-                                "group.luminance"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Monitoring Chart",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "history_graph.temperature_graphs"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Temperature",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "history_graph.humidity_graphs"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Humidity",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "history_graph.luminance_graphs"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Luminance",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "history_graph.power_graphs"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "Power",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "group.all_automations"
-                            ],
-                            "show_header_toggle": true,
-                            "title": "AUTOMATION",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "switch.intermatic_ha02_appliance_module_switch",
-                                "switch.intermatic_ha04c_outdoor_module_switch",
-                                "switch.sigma_walveswitch"
-                            ],
-                            "title": "switch",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "zwave.intermatic_ha02_appliance_module_8",
-                                "zwave.intermatic_ha04_module_7",
-                                "zwave.inovelli_2ch",
-                                "zwave.neo_coolcam_power_plug_12a",
-                                "zwave.neo_coolcam_power_plug_12a_2",
-                                "zwave.neo_coolcam_power_plug_12a_3",
-                                "zwave.neo_coolcam_power_plug_12a_4",
-                                "zwave.neo_coolcam_power_plug_12a_5",
-                                "zwave.neo_coolcam_water_leakage_detector",
-                                "zwave.sigma_walveswitch",
-                                "zwave.zooz_zen06_01",
-                                "zwave.aeotec_zw090_zstick_gen5_us",
-                                "zwave.everspring_st812_flood_detector",
-                                "zwave.homeseer_hsm200_wireless_multisensor",
-                                "zwave.kaipule_im20_doorwindow_sensor",
-                                "zwave.kaipule_im20_doorwindow_sensor_2",
-                                "zwave.multisensor1",
-                                "zwave.multisensor2",
-                                "zwave.vision_zp3111_multisensor_4in1"
-                            ],
-                            "title": "Z-Wave",
                             "type": "entities"
                         }
-                    ],
-                    "path": "default_view",
-                    "title": "Home"
+                    ]
+                },
+                {
+                    "title": "AUTO",
+                    "path": "auto",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "automation.door_is_open"
+                                },
+                                {
+                                    "entity": "automation.switch_of_water"
+                                },
+                                {
+                                    "entity": "automation.turn_off_zooz01_5_minutes_after_last_movement"
+                                },
+                                {
+                                    "entity": "automation.turn_on_inovellisw2_when_there_is_movement"
+                                },
+                                {
+                                    "entity": "automation.turn_on_zooz01_when_there_is_movement"
+                                }
+                            ],
+                            "show_header_toggle": false
+                        }
+                    ]
+                },
+                {
+                    "title": "CHART",
+                    "path": "chart",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_luminance_2"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_luminance"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "title": "Luminance"
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_2"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_3"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_4"
+                                },
+                                {
+                                    "entity": "sensor.shenzhen_neo_electronics_co_ltd_power_plug_12a_power_5"
+                                },
+                                {
+                                    "entity": "sensor.zooz_zen06_power"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "title": "Power"
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.office_p1_humidity"
+                                },
+                                {
+                                    "entity": "sensor.office_p2_humidity"
+                                },
+                                {
+                                    "entity": "sensor.office_p3_humidity"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity_2"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "title": "Humidity"
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.office_p1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.office_p2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.office_p3_temperature"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature_2"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "title": "Temperature"
+                        }
+                    ]
                 }
             ]
         }
-    },
-    "key": "lovelace",
-    "version": 1
+    }
 }

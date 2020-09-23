@@ -1,14 +1,57 @@
 {
+    "version": 1,
+    "key": "auth",
     "data": {
-        "credentials": [
+        "users": [
             {
-                "auth_provider_id": null,
-                "auth_provider_type": "homeassistant",
-                "data": {
-                    "username": "nimda"
-                },
-                "id": "ef569be29c46499bb86a8b1c568005fb",
-                "user_id": "40877ce570e04856951837b0eac93c07"
+                "id": "e0fd3c1614e64a8aa158b70a6ee8cffe",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "id": "89ec8b03a2f64bbcbda35ad712bb2165",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "id": "0e5e18c674b7420aa54650496fb3e693",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Home Assistant Cast",
+                "system_generated": true
+            },
+            {
+                "id": "64aab79200bb42f9afe8783ef35b713b",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "viewer",
+                "system_generated": false
+            },
+            {
+                "id": "2a5f4dc5e71044d6b1d81e1bd712b619",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "nimda",
+                "system_generated": false
             }
         ],
         "groups": [
@@ -25,107 +68,111 @@
                 "name": "Read Only"
             }
         ],
-        "refresh_tokens": [
+        "credentials": [
             {
-                "access_token_expiration": 1800.0,
-                "client_icon": null,
-                "client_id": null,
-                "client_name": null,
-                "created_at": "2020-09-16T01:33:24.792598+00:00",
-                "id": "e4d4da5131bb458d81eade3c3c5bd9ec",
-                "jwt_key": "929aab58c86e8f67914448a03db877d77d1b2a0658e101937b5a8364b6f73e9192bed8c48bda1679d91910d19bb705f33198696cc5a0e755a172b4f6499b1b52",
-                "last_used_at": "2020-09-16T02:06:01.373004+00:00",
-                "last_used_ip": "172.30.32.2",
-                "token": "0c9286ca8cab16ac49e08778621b9e877821ef395c17707b78d86083b4969732d0b52585e1326cc6ba8508281a47bce99c2a6c2f0a38485f530471eafebb1d9e",
-                "token_type": "system",
-                "user_id": "e0fd3c1614e64a8aa158b70a6ee8cffe"
+                "id": "d7dcdf2fd1ba43be801520ecfd7c7789",
+                "user_id": "64aab79200bb42f9afe8783ef35b713b",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "viewer"
+                }
             },
             {
-                "access_token_expiration": 1800.0,
-                "client_icon": null,
-                "client_id": "http://192.168.0.91:8123/",
-                "client_name": null,
-                "created_at": "2020-09-16T01:41:44.101980+00:00",
-                "id": "37d3cf9b6ce8444d9b40fddb37baf47f",
-                "jwt_key": "031c071ac98d9ea7071eab8c0924708221e73cdbb7401d099e3411abf3428f46fa521e3131f1a3a34401e2b9233137bc431ddb9fad3bd4c2b40253d9c146ae25",
-                "last_used_at": "2020-09-16T02:47:19.847752+00:00",
-                "last_used_ip": "192.168.0.70",
-                "token": "d9cca84aef2aaaf9be7aea0d597575531f9a22eb33f3c93a37c4d84d6180b5bbf9a2cc2c614c30fccbab24adccb9b4002221dd543f45cb745ffa91dacb8d15a9",
-                "token_type": "normal",
-                "user_id": "40877ce570e04856951837b0eac93c07"
-            },
-            {
-                "access_token_expiration": 1800.0,
-                "client_icon": null,
-                "client_id": null,
-                "client_name": null,
-                "created_at": "2020-09-16T02:16:57.775779+00:00",
-                "id": "b1088a5a4c794082bbfc4ddda316ef4d",
-                "jwt_key": "a2b3b502ca041da60f9ba2b07c6da32e06891db7ad4afe2f86d92ec282eced2d53e6a96974572d48f12e8b16f4af1c95e8bec7ddf375dbfd87941f55f02fb00a",
-                "last_used_at": "2020-09-16T02:37:05.729606+00:00",
-                "last_used_ip": "172.30.32.2",
-                "token": "7ead74d2ac306535db59bfc3f58420cbb44379b4f14ad39175c233ef491f3dca4c1fc4bcb5e5b86de3dba83d91f07085a014de7dbf06ca00f1359f34e7d2ae8a",
-                "token_type": "system",
-                "user_id": "89ec8b03a2f64bbcbda35ad712bb2165"
-            },
-            {
-                "access_token_expiration": 1800.0,
-                "client_icon": null,
-                "client_id": null,
-                "client_name": null,
-                "created_at": "2020-09-16T02:17:02.938476+00:00",
-                "id": "9dc5f7f023ab47698bacf9d73564f272",
-                "jwt_key": "4714052ebd875117a9d58e6d5095e43858b08e64b797639b4bc33930532fdf2999777a66ae2048a6d9df467d9a74fff29e41a35f9e803dab8e508fbabcc047a7",
-                "last_used_at": null,
-                "last_used_ip": null,
-                "token": "2521db25e3f852311e357df607289e43dee4663cd06b4c65f6c34d1c5d6d73a59c50a5d573c18d6e334cc70fb9030e4f569a94f52502cae02633f88b85e07620",
-                "token_type": "system",
-                "user_id": "0e5e18c674b7420aa54650496fb3e693"
+                "id": "92963c82e7e241b08f94eeae8aa3e6d6",
+                "user_id": "2a5f4dc5e71044d6b1d81e1bd712b619",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "nimda"
+                }
             }
         ],
-        "users": [
+        "refresh_tokens": [
             {
-                "group_ids": [
-                    "system-admin"
-                ],
-                "id": "e0fd3c1614e64a8aa158b70a6ee8cffe",
-                "is_active": true,
-                "is_owner": false,
-                "name": "Hass.io",
-                "system_generated": true
+                "id": "e4d4da5131bb458d81eade3c3c5bd9ec",
+                "user_id": "e0fd3c1614e64a8aa158b70a6ee8cffe",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2020-09-16T01:33:24.792598+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "0c9286ca8cab16ac49e08778621b9e877821ef395c17707b78d86083b4969732d0b52585e1326cc6ba8508281a47bce99c2a6c2f0a38485f530471eafebb1d9e",
+                "jwt_key": "929aab58c86e8f67914448a03db877d77d1b2a0658e101937b5a8364b6f73e9192bed8c48bda1679d91910d19bb705f33198696cc5a0e755a172b4f6499b1b52",
+                "last_used_at": "2020-09-16T02:06:01.373004+00:00",
+                "last_used_ip": "172.30.32.2"
             },
             {
-                "group_ids": [
-                    "system-admin"
-                ],
-                "id": "40877ce570e04856951837b0eac93c07",
-                "is_active": true,
-                "is_owner": true,
-                "name": "nimda",
-                "system_generated": false
+                "id": "b1088a5a4c794082bbfc4ddda316ef4d",
+                "user_id": "89ec8b03a2f64bbcbda35ad712bb2165",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2020-09-16T02:16:57.775779+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7ead74d2ac306535db59bfc3f58420cbb44379b4f14ad39175c233ef491f3dca4c1fc4bcb5e5b86de3dba83d91f07085a014de7dbf06ca00f1359f34e7d2ae8a",
+                "jwt_key": "a2b3b502ca041da60f9ba2b07c6da32e06891db7ad4afe2f86d92ec282eced2d53e6a96974572d48f12e8b16f4af1c95e8bec7ddf375dbfd87941f55f02fb00a",
+                "last_used_at": "2020-09-21T23:51:54.433966+00:00",
+                "last_used_ip": "172.30.32.2"
             },
             {
-                "group_ids": [
-                    "system-admin"
-                ],
-                "id": "89ec8b03a2f64bbcbda35ad712bb2165",
-                "is_active": true,
-                "is_owner": false,
-                "name": "Hass.io",
-                "system_generated": true
+                "id": "9dc5f7f023ab47698bacf9d73564f272",
+                "user_id": "0e5e18c674b7420aa54650496fb3e693",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2020-09-16T02:17:02.938476+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "2521db25e3f852311e357df607289e43dee4663cd06b4c65f6c34d1c5d6d73a59c50a5d573c18d6e334cc70fb9030e4f569a94f52502cae02633f88b85e07620",
+                "jwt_key": "4714052ebd875117a9d58e6d5095e43858b08e64b797639b4bc33930532fdf2999777a66ae2048a6d9df467d9a74fff29e41a35f9e803dab8e508fbabcc047a7",
+                "last_used_at": null,
+                "last_used_ip": null
             },
             {
-                "group_ids": [
-                    "system-admin"
-                ],
-                "id": "0e5e18c674b7420aa54650496fb3e693",
-                "is_active": true,
-                "is_owner": false,
-                "name": "Home Assistant Cast",
-                "system_generated": true
+                "id": "84628e41bd8f44b4bb37735f69b7caff",
+                "user_id": "2a5f4dc5e71044d6b1d81e1bd712b619",
+                "client_id": "http://10.1.2.88:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-09-19T02:18:00.579318+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "793fa5cd72166071a7acaa3e74c16138d84d5d0227394cce869bad448de28aa55881252a484f72389f9abfddaa18d5dfa32e2ee4228d54d4a7ede20018e4df18",
+                "jwt_key": "f7066a67d7f3aa86b8b131097ecf3b31925389a8d01af1e67553334d59f1635e18cefabb3429949dbb940bbce94705624a8fc084b30d4b0454f92c76567a6d15",
+                "last_used_at": "2020-09-21T23:51:52.794397+00:00",
+                "last_used_ip": "10.1.23.5"
+            },
+            {
+                "id": "9928c376e67547d3bafaef2141c92368",
+                "user_id": "2a5f4dc5e71044d6b1d81e1bd712b619",
+                "client_id": "https://hassio.ehealthinnovation.org/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-09-19T02:31:49.496496+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "0ccf27ae8001dac27c19c699b07307b15b55c0e337ce324457b103f454dcff40e912158ab7fa79ce4e7a14c6db95a6b0ffdddd5e1088a9745d188f3b76ba6828",
+                "jwt_key": "79cdd43f35b622889aed132b0d618f024834941a671ddcf0533b7a96890cfcc84273524f324bf47ad98685d3964d5053d2d9296426dca7336e8d967f8ff10bee",
+                "last_used_at": "2020-09-23T03:03:44.896124+00:00",
+                "last_used_ip": "10.1.6.116"
+            },
+            {
+                "id": "4193ae72ddb945968930c973960094a9",
+                "user_id": "2a5f4dc5e71044d6b1d81e1bd712b619",
+                "client_id": "https://hassio.ehealthinnovation.org/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-09-19T05:48:39.104741+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "17282f8e220fb6d6b503a144c408231f5684335f9092a22a89407ce10559a9e7f9915ee37c7cbbfb17cb4a4cd6dbab331533ed7deb7a732910790a29920df34c",
+                "jwt_key": "daf89bc832956815deedaa59ce3779627cf8d3f79a835b8d5a91d08ce82fa4f645bd40ce4295e1ba530444e45fc44e64c56714167bc609cfc11d2726e19146a2",
+                "last_used_at": "2020-09-20T02:29:18.250899+00:00",
+                "last_used_ip": "10.1.6.116"
             }
         ]
-    },
-    "key": "auth",
-    "version": 1
+    }
 }
