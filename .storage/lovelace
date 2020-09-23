@@ -11,6 +11,12 @@
                     "panel": false,
                     "badges": [
                         {
+                            "entity": "binary_sensor.kaipule_technology_co_ltd_im20_door_window_sensor_sensor"
+                        },
+                        {
+                            "entity": "binary_sensor.kaipule_technology_co_ltd_im20_door_window_sensor_sensor_2"
+                        },
+                        {
                             "entity": "sensor.last_boot"
                         },
                         {
@@ -26,7 +32,7 @@
                                 "sensor.time_in_odessa",
                                 "script.test_notification"
                             ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "Date and Time",
                             "type": "entities"
                         },
@@ -171,7 +177,7 @@
                                     "entity": "switch.zooz_willis_electric_unknown_type_2500_id_2500_switch_2"
                                 }
                             ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "RoomMultiSensor1_Id:14",
                             "type": "entities"
                         },
@@ -196,19 +202,35 @@
                                     "entity": "sensor.multisensor2_battery"
                                 }
                             ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "SrvRoomMultiSensor2_Id:11",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.multisensor1_battery",
-                                "sensor.multisensor2_battery",
-                                "sensor.office_p1_battery",
-                                "sensor.office_p2_battery",
-                                "sensor.office_p3_battery"
+                                {
+                                    "entity": "sensor.kaipule_technology_co_ltd_im20_door_window_sensor_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.kaipule_technology_co_ltd_im20_door_window_sensor_battery_level_2"
+                                },
+                                {
+                                    "entity": "sensor.multisensor1_battery"
+                                },
+                                {
+                                    "entity": "sensor.multisensor2_battery"
+                                },
+                                {
+                                    "entity": "sensor.office_p1_battery"
+                                },
+                                {
+                                    "entity": "sensor.office_p2_battery"
+                                },
+                                {
+                                    "entity": "sensor.office_p3_battery"
+                                }
                             ],
-                            "show_header_toggle": true,
+                            "show_header_toggle": false,
                             "title": "Batteries",
                             "type": "entities"
                         }

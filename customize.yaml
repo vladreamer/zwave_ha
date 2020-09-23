@@ -1,13 +1,18 @@
 ##################
 ## DoorSensors
 ##################
-binary_sensor.kaipule_im20_doorwindow_sensor_sensor:
+binary_sensor.kaipule_technology_co_ltd_im20_door_window_sensor_sensor:
   friendly_name: ServerRoom
   device_class: door
-binary_sensor.kaipule_im20_doorwindow_sensor_sensor_2:
+sensor.kaipule_technology_co_ltd_im20_door_window_sensor_battery_level:
+  friendly_name: ServerRoomDoorBat
+  device_class: battery
+binary_sensor.kaipule_technology_co_ltd_im20_door_window_sensor_sensor_2:
   friendly_name: Office 
   device_class: door
-
+sensor.kaipule_technology_co_ltd_im20_door_window_sensor_battery_level_2:
+  friendly_name: OfficeDoorBat
+  device_class: battery
 #######################################
 #
 # Switches 

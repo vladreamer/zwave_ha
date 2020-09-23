@@ -55,16 +55,16 @@
 ################
 ## WeatherSensor 
 ################
-- platform: yr
-  name: Weather
-  forecast: 24
-  monitored_conditions:
-  - temperature
-  - precipitation
-  - windSpeed
-  - pressure
-  - humidity
-  - dewpointTemperature
+#- platform: yr
+#  name: Weather
+#  forecast: 24
+#  monitored_conditions:
+#  - temperature
+#  - precipitation
+#  - windSpeed
+#  - pressure
+#  - humidity
+#  - dewpointTemperature
 
 ################
 ## SystemStatus 
@@ -99,7 +99,7 @@
     multisensor1_battery:
       friendly_name: "Multisensor1_Battery"
       value_template: "{% if states.zwave.multisensor1 %}
-        {{ states.zwave.multisensor1.attributes.battery_level }}
+        {{ states.zwave.vision_security_zp3111_multisensor_4in1.attributes.battery_level }}
         {% else %}
         unknown
         {% endif %}"
@@ -123,7 +123,7 @@
     multisensor2_battery:
       friendly_name: "Multisensor2_Battery"
       value_template: "{% if states.zwave.multisensor2 %}
-        {{ states.zwave.multisensor2.attributes.battery_level }}
+        {{ states.zwave.vision_security_zp3111_multisensor_4in1_2.attributes.battery_level }}
         {% else %}
         unknown
         {% endif %}"

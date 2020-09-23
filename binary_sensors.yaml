@@ -4,25 +4,25 @@
 - platform: template
   sensors:
     multisensor1_motion:
-      value_template: "{{ is_state('sensor.multisensor1_burglar', '8') }}"
+      value_template: "{{ is_state('sensor.vision_security_zp3111_multisensor_4in1_burglar', '8') }}"
       friendly_name: "Multisensor1 Motion"
       device_class: motion
       # entity_id: sensor.multisensor1_burglar
 
     multisensor1_tamper:
-      value_template: "{{ is_state('sensor.multisensor1_burglar', '3') }}"
+      value_template: "{{ is_state('sensor.vision_security_zp3111_multisensor_4in1_burglar', '3') }}"
       friendly_name: "Multisensor1 Tamper"
       device_class: safety
       # entity_id: sensor.multisensor1_burglar
     
     multisensor2_motion:
-      value_template: "{{ is_state('sensor.multisensor2_burglar', '8') }}"
+      value_template: "{{ is_state('sensor.vision_security_zp3111_multisensor_4in1_burglar_2', '8') }}"
       friendly_name: "Multisensor2 Motion"
       device_class: motion
       # entity_id: sensor.multisensor2_burglar
 
     multisensor2_tamper:
-      value_template: "{{ is_state('sensor.multisensor2_burglar', '3') }}"
+      value_template: "{{ is_state('sensor.vision_security_zp3111_multisensor_4in1_burglar_2', '3') }}"
       friendly_name: "Multisensor2 Tamper"
       device_class: safety
       # entity_id: sensor.multisensor2_burglar
