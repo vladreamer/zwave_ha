@@ -98,13 +98,13 @@
   sensors:
     multisensor1_battery:
       friendly_name: "Multisensor1_Battery"
-      value_template: "{% if states.zwave.multisensor1 %}
+      value_template: "{% if states.zwave.vision_security_zp3111_multisensor_4in1 %}
         {{ states.zwave.vision_security_zp3111_multisensor_4in1.attributes.battery_level }}
         {% else %}
         unknown
         {% endif %}"
       unit_of_measurement: '%'
-      # entity_id: zwave.multisensor1
+      # entity_id: zwave.vision_security_zp3111_multisensor_4in1
       icon_template: >-
         {% set battery_level = states('sensor.multisensor1_battery')|int('unknown') %}
         {% set battery_round = (battery_level|int / 10)|int * 10 %}
@@ -122,13 +122,13 @@
 
     multisensor2_battery:
       friendly_name: "Multisensor2_Battery"
-      value_template: "{% if states.zwave.multisensor2 %}
+      value_template: "{% if states.zwave.vision_security_zp3111_multisensor_4in1_2 %}
         {{ states.zwave.vision_security_zp3111_multisensor_4in1_2.attributes.battery_level }}
         {% else %}
         unknown
         {% endif %}"
       unit_of_measurement: '%'
-      # entity_id: zwave.multisensor2
+      # entity_id: zwave.vision_security_zp3111_multisensor_4in1_2
       icon_template: >-
         {% set battery_level = states('sensor.multisensor2_battery')|int('unknown') %}
         {% set battery_round = (battery_level|int / 10)|int * 10 %}

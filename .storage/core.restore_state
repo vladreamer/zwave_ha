@@ -13,15 +13,15 @@
                     "id": "2018073001",
                     "friendly_name": "Turn off Neo3 if Neo2 on"
                 },
-                "last_changed": "2020-09-23T04:31:28.100413+00:00",
-                "last_updated": "2020-09-23T04:31:28.100413+00:00",
+                "last_changed": "2020-09-25T03:15:34.044378+00:00",
+                "last_updated": "2020-09-25T03:15:34.044378+00:00",
                 "context": {
-                    "id": "a5a017e7fd5511ea9bd2d91648974281",
+                    "id": "6005cb02fedd11eaa2be6bd7f3ae6ddf",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
@@ -34,15 +34,15 @@
                     "id": "2018073002",
                     "friendly_name": "Turn off InovelliSW2 3 minutes after last movement"
                 },
-                "last_changed": "2020-09-23T04:31:28.171470+00:00",
-                "last_updated": "2020-09-23T04:31:28.171470+00:00",
+                "last_changed": "2020-09-25T03:15:34.130970+00:00",
+                "last_updated": "2020-09-25T03:15:34.130970+00:00",
                 "context": {
-                    "id": "a5aaf051fd5511ea9301a38494f51174",
+                    "id": "6013055dfedd11eaaa90cd47ff925f54",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
@@ -55,15 +55,15 @@
                     "id": "office_sensor_2018073003",
                     "friendly_name": "Door is open"
                 },
-                "last_changed": "2020-09-23T04:31:28.176233+00:00",
-                "last_updated": "2020-09-23T04:31:28.176233+00:00",
+                "last_changed": "2020-09-25T03:15:34.132926+00:00",
+                "last_updated": "2020-09-25T03:15:34.132926+00:00",
                 "context": {
-                    "id": "a5abaaabfd5511eabe7f5fe0b51d9ff1",
+                    "id": "60135330fedd11eaab57b30faa025a42",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
@@ -76,36 +76,36 @@
                     "id": "2018073003",
                     "friendly_name": "Turn on InovelliSW2 when there is movement"
                 },
-                "last_changed": "2020-09-23T04:31:28.179311+00:00",
-                "last_updated": "2020-09-23T04:31:28.179311+00:00",
+                "last_changed": "2020-09-25T03:15:34.135534+00:00",
+                "last_updated": "2020-09-25T03:15:34.135534+00:00",
                 "context": {
-                    "id": "a5ac2395fd5511ea867759d91b95d38e",
+                    "id": "6013b701fedd11ea80393d999129118d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.turn_on_zooz01_when_there_is_movement",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": null,
+                    "last_triggered": "2020-09-25T03:13:00.843559+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "2018091000",
                     "friendly_name": "Turn on Zooz01 when there is movement"
                 },
-                "last_changed": "2020-09-23T04:31:28.182393+00:00",
-                "last_updated": "2020-09-23T04:31:28.182393+00:00",
+                "last_changed": "2020-09-25T03:15:34.138256+00:00",
+                "last_updated": "2020-09-25T03:15:34.138256+00:00",
                 "context": {
-                    "id": "a5ac9ba6fd5511eaaf6d7feb0cb92462",
+                    "id": "6014226ffedd11ea9cccbfde92fdf85f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
@@ -118,15 +118,15 @@
                     "id": "2018091002",
                     "friendly_name": "Turn off Zooz01 5 minutes after last movement"
                 },
-                "last_changed": "2020-09-23T04:31:28.185120+00:00",
-                "last_updated": "2020-09-23T04:31:28.185120+00:00",
+                "last_changed": "2020-09-25T03:15:34.140919+00:00",
+                "last_updated": "2020-09-25T03:15:34.140919+00:00",
                 "context": {
-                    "id": "a5ad06e2fd5511eab45411805ada59ad",
+                    "id": "60148a10fedd11ea9d25dfd1deafaf51",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         },
         {
             "state": {
@@ -139,15 +139,15 @@
                     "id": "2018073004",
                     "friendly_name": "Switch of Water"
                 },
-                "last_changed": "2020-09-23T04:31:28.189126+00:00",
-                "last_updated": "2020-09-23T04:31:28.189126+00:00",
+                "last_changed": "2020-09-25T03:15:34.142893+00:00",
+                "last_updated": "2020-09-25T03:15:34.142893+00:00",
                 "context": {
-                    "id": "a5ada154fd5511eabaf827d978c4ccaf",
+                    "id": "6014d838fedd11eaa7e8b52f80b9c582",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2020-09-23T04:31:29.467832+00:00"
+            "last_seen": "2020-09-25T03:15:41.352964+00:00"
         }
     ]
 }

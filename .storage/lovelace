@@ -178,7 +178,7 @@
                                 }
                             ],
                             "show_header_toggle": false,
-                            "title": "RoomMultiSensor1_Id:14",
+                            "title": "Office_Sensor_Id:2",
                             "type": "entities"
                         },
                         {
@@ -199,11 +199,11 @@
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"
                                 },
                                 {
-                                    "entity": "sensor.multisensor2_battery"
+                                    "entity": "sensor.multisensor1_battery"
                                 }
                             ],
                             "show_header_toggle": false,
-                            "title": "SrvRoomMultiSensor2_Id:11",
+                            "title": "SrvRM_Sensor_Id:3",
                             "type": "entities"
                         },
                         {
@@ -358,13 +358,13 @@
                                     "entity": "automation.switch_of_water"
                                 },
                                 {
-                                    "entity": "automation.turn_off_zooz01_5_minutes_after_last_movement"
-                                },
-                                {
                                     "entity": "automation.turn_on_inovellisw2_when_there_is_movement"
                                 },
                                 {
                                     "entity": "automation.turn_on_zooz01_when_there_is_movement"
+                                },
+                                {
+                                    "entity": "automation.turn_off_zooz01_5_minutes_after_last_movement"
                                 }
                             ],
                             "show_header_toggle": false
@@ -386,7 +386,7 @@
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_luminance"
                                 }
                             ],
-                            "hours_to_show": 24,
+                            "hours_to_show": 48,
                             "refresh_interval": 0,
                             "title": "Luminance"
                         },
@@ -412,7 +412,7 @@
                                     "entity": "sensor.zooz_zen06_power"
                                 }
                             ],
-                            "hours_to_show": 24,
+                            "hours_to_show": 48,
                             "refresh_interval": 0,
                             "title": "Power"
                         },
@@ -435,7 +435,7 @@
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity_2"
                                 }
                             ],
-                            "hours_to_show": 24,
+                            "hours_to_show": 48,
                             "refresh_interval": 0,
                             "title": "Humidity"
                         },
@@ -458,7 +458,7 @@
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature_2"
                                 }
                             ],
-                            "hours_to_show": 24,
+                            "hours_to_show": 48,
                             "refresh_interval": 0,
                             "title": "Temperature"
                         }

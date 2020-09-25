@@ -84,7 +84,7 @@
 #  icon: mdi:temperature-celsius
 #"sensor.multisensor*_battery":
 #  friendly_name: BatteryStatus
-"binary_sensor.multisensor*_tamper":
-  friendly_name: Tamper
-"binary_sensor.multisensor*_motion":
-  friendly_name: Motion
+#"binary_sensor.multisensor*_tamper":
+#  friendly_name: Tamper
+#"binary_sensor.multisensor*_motion":
+#  friendly_name: Motion

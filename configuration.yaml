@@ -56,7 +56,7 @@ logbook:
 
 #Logging all except warnings about cameras connection
 logger:
-  default: info 
+  default: debug
   logs:
     homeassistant.components.camera: critical
     urllib3.connectionpool: critical
