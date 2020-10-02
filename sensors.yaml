@@ -37,20 +37,20 @@
 
 - platform: mqtt
   state_topic: 'RTL_433/JSON'
-  name: 'Office P3 Temperature'
+  name: 'SrvRM P3 Temperature'
   unit_of_measurement: "°C"
-  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.temperature_C | round(1) }}{% else %}{{ states.sensor.office_p3_temperature.state }}{% endif %}"
+  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.temperature_C | round(1) }}{% else %}{{ states.sensor.srvrm_p3_temperature.state }}{% endif %}"
 
 - platform: mqtt
   state_topic: 'RTL_433/JSON'
-  name: 'Office P3 Humidity'
+  name: 'SrvRM P3 Humidity'
   unit_of_measurement: "%"
-  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.humidity | round(1) }}{% else %}{{ states.sensor.office_p3_humidity.state }}{% endif %}"
+  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.humidity | round(1) }}{% else %}{{ states.sensor.srvrm_p3_humidity.state }}{% endif %}"
 
 - platform: mqtt
   state_topic: 'RTL_433/JSON'
-  name: 'Office P3 Battery'
-  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.battery }}{% else %}{{ states.sensor.office_p3_battery.state }}{% endif %}"
+  name: 'SrvRM P3 Battery'
+  value_template: "{% if value_json.model == 'Prologue sensor' and value_json.channel == 3 %}{{ value_json.battery }}{% else %}{{ states.sensor.srvrm_p3_battery.state }}{% endif %}"
 
 ################
 ## WeatherSensor 
@@ -97,7 +97,7 @@
 - platform: template
   sensors:
     multisensor1_battery:
-      friendly_name: "Multisensor1_Battery"
+      friendly_name: "SrvRMMult1_Battery"
       value_template: "{% if states.zwave.vision_security_zp3111_multisensor_4in1 %}
         {{ states.zwave.vision_security_zp3111_multisensor_4in1.attributes.battery_level }}
         {% else %}
@@ -121,7 +121,7 @@
         {% endif %}
 
     multisensor2_battery:
-      friendly_name: "Multisensor2_Battery"
+      friendly_name: "OfficeMult2_Battery"
       value_template: "{% if states.zwave.vision_security_zp3111_multisensor_4in1_2 %}
         {{ states.zwave.vision_security_zp3111_multisensor_4in1_2.attributes.battery_level }}
         {% else %}

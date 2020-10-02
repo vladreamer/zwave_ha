@@ -13,9 +13,9 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
   customize_glob: !include customize_glob.yaml
-  #whitelist_external_dirs:
-   #  - /home/homeassistant/.homeassistant/downloads
-   #  - /tmp
+  whitelist_external_dirs:
+     - /config/downloads
+     - /tmp
 
 # Show links to resources in log and frontend
 #introduction:
@@ -56,7 +56,7 @@ logbook:
 
 #Logging all except warnings about cameras connection
 logger:
-  default: debug
+  default: info
   logs:
     homeassistant.components.camera: critical
     urllib3.connectionpool: critical

@@ -11,6 +11,9 @@
                     "panel": false,
                     "badges": [
                         {
+                            "entity": "binary_sensor.flood_sensor1"
+                        },
+                        {
                             "entity": "binary_sensor.kaipule_technology_co_ltd_im20_door_window_sensor_sensor"
                         },
                         {
@@ -196,7 +199,13 @@
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity"
                                 },
                                 {
+                                    "entity": "sensor.srvrm_p3_humidity"
+                                },
+                                {
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.srvrm_p3_temperature"
                                 },
                                 {
                                     "entity": "sensor.multisensor1_battery"
@@ -227,7 +236,10 @@
                                     "entity": "sensor.office_p2_battery"
                                 },
                                 {
-                                    "entity": "sensor.office_p3_battery"
+                                    "entity": "sensor.srvrm_p3_battery"
+                                },
+                                {
+                                    "entity": "sensor.floodsensor1_battery"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -251,7 +263,14 @@
                         },
                         {
                             "entity": "camera.camera3",
-                            "type": "picture-entity"
+                            "type": "picture-entity",
+                            "show_state": false,
+                            "tap_action": {
+                                "action": "more-info"
+                            },
+                            "hold_action": {
+                                "action": "none"
+                            }
                         }
                     ]
                 },
@@ -312,7 +331,7 @@
                                     "entity": "sensor.office_p2_temperature"
                                 },
                                 {
-                                    "entity": "sensor.office_p3_temperature"
+                                    "entity": "sensor.srvrm_p3_temperature"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -334,7 +353,7 @@
                                     "entity": "sensor.office_p2_humidity"
                                 },
                                 {
-                                    "entity": "sensor.office_p3_humidity"
+                                    "entity": "sensor.srvrm_p3_humidity"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -359,6 +378,9 @@
                                 },
                                 {
                                     "entity": "automation.turn_on_inovellisw2_when_there_is_movement"
+                                },
+                                {
+                                    "entity": "automation.turn_off_inovellisw2_3_minutes_after_last_movement"
                                 },
                                 {
                                     "entity": "automation.turn_on_zooz01_when_there_is_movement"
@@ -426,7 +448,7 @@
                                     "entity": "sensor.office_p2_humidity"
                                 },
                                 {
-                                    "entity": "sensor.office_p3_humidity"
+                                    "entity": "sensor.srvrm_p3_humidity"
                                 },
                                 {
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_relative_humidity"
@@ -449,7 +471,7 @@
                                     "entity": "sensor.office_p2_temperature"
                                 },
                                 {
-                                    "entity": "sensor.office_p3_temperature"
+                                    "entity": "sensor.srvrm_p3_temperature"
                                 },
                                 {
                                     "entity": "sensor.vision_security_zp3111_multisensor_4in1_temperature"

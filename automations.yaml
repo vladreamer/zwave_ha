@@ -86,7 +86,7 @@
 ## Multisensor1 after 15 minutes "NO MOTION"
 ##  
 ########################################################
-  alias: Turn off InovelliSW2 3 minutes after last movement
+  alias: Turn off OfficeLight after 3 minutes no motion
   initial_state: true
   trigger:
   - entity_id: binary_sensor.multisensor1_motion
@@ -96,11 +96,11 @@
     to: 'off'
   condition:
   - condition: state
-    entity_id: switch.inovelli_2ch_switch_2 
+    entity_id: switch.zooz_willis_electric_unknown_type_2500_id_2500_switch 
     state: 'on'
   action:
   - service: homeassistant.turn_off 
-    entity_id: switch.inovelli_2ch_switch_2
+    entity_id: switch.zooz_willis_electric_unknown_type_2500_id_2500_switch
 #
 #
 - id: 'office_sensor_2018073003'
