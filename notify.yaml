@@ -3,10 +3,12 @@
   server: smtp.gmail.com
   port: 587
   timeout: 15
-  sender: pykodel@gmail.com
+  sender: ehealth@office.com
   starttls: 1
-  username: pykodel@gmail.com
-  password: Darish2015 
+  username: officemailalert@gmail.com
+#  username: pykodel@gmail.com
+  password: Darish2018
+#  password: Darish2015 
   recipient:
     - officemailalert@gmail.com 
   sender_name: OfficeAssistant

@@ -1,67 +1,68 @@
-2020-09-30 12:44:41 WARNING (MainThread) [homeassistant.config] Key whitelist_external_dirs has been replaced with allowlist_external_dirs. Please update your config
-2020-09-30 12:44:41 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
-2020-09-30 12:44:43 WARNING (MainThread) [homeassistant.components.recorder] The 'purge_interval' option is deprecated, please remove it from your configuration
-2020-09-30 12:44:43 INFO (MainThread) [homeassistant.setup] Setting up recorder
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setting up http
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.1 seconds
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setting up system_log
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 0.7 seconds
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'api', 'search', 'person', 'http', 'image', 'websocket_api', 'frontend', 'hassio', 'system_log', 'auth', 'config', 'device_automation', 'lovelace', 'onboarding'}
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setting up api
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
-2020-09-30 12:44:44 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setting up hassio
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setting up auth
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setting up config
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setting up device_automation
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
-2020-09-30 12:44:45 INFO (MainThread) [homeassistant.setup] Setting up lovelace
-2020-09-30 12:44:45 INFO (SyncWorker_9) [homeassistant.loader] Loaded ssdp from homeassistant.components.ssdp
-2020-09-30 12:44:45 INFO (SyncWorker_2) [homeassistant.loader] Loaded zeroconf from homeassistant.components.zeroconf
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain api took 1.4 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain config took 1.3 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setting up search
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setting up image
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 1.3 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain image took 0.0 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setting up person
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain person took 0.0 seconds
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setting up onboarding
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.helpers.storage] Migrating onboarding storage from 1 to 3
-2020-09-30 12:44:46 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
-2020-09-30 12:44:46 INFO (SyncWorker_5) [homeassistant.loader] Loaded scene from homeassistant.components.scene
-2020-09-30 12:44:46 INFO (SyncWorker_3) [homeassistant.loader] Loaded device_tracker from homeassistant.components.device_tracker
-2020-09-30 12:44:47 INFO (SyncWorker_11) [homeassistant.loader] Loaded webhook from homeassistant.components.webhook
-2020-09-30 12:44:47 INFO (SyncWorker_0) [homeassistant.loader] Loaded zone from homeassistant.components.zone
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setting up frontend
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 2.2 seconds
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'notify', 'system_health', 'logbook', 'updater', 'mqtt', 'ffmpeg', 'automation', 'binary_sensor', 'zwave', 'sensor', 'camera', 'cast', 'group', 'history', 'map', 'script', 'shell_command'}
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setting up system_health
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 0.0 seconds
-2020-09-30 12:44:47 INFO (SyncWorker_3) [homeassistant.loader] Loaded smtp from homeassistant.components.smtp
-2020-09-30 12:44:47 INFO (MainThread) [homeassistant.setup] Setting up logbook
-2020-09-30 12:44:48 INFO (MainThread) [homeassistant.setup] Setting up updater
-2020-09-30 12:44:48 INFO (MainThread) [homeassistant.setup] Setting up ffmpeg
-2020-09-30 12:44:48 INFO (SyncWorker_6) [homeassistant.loader] Loaded template from homeassistant.components.template
-2020-09-30 12:44:48 INFO (MainThread) [homeassistant.setup] Setting up zwave
-2020-09-30 12:44:48 INFO (MainThread) [homeassistant.setup] Setup of domain zwave took 0.0 seconds
-2020-09-30 12:44:49 INFO (SyncWorker_2) [homeassistant.loader] Loaded mjpeg from homeassistant.components.mjpeg
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setting up group
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setting up history
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setting up map
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setting up shell_command
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setup of domain shell_command took 0.0 seconds
-2020-09-30 12:44:49 INFO (SyncWorker_5) [homeassistant.loader] Loaded cloud from homeassistant.components.cloud
-2020-09-30 12:44:49 INFO (SyncWorker_10) [homeassistant.loader] Loaded media_source from homeassistant.components.media_source
-2020-09-30 12:44:49 INFO (SyncWorker_11) [homeassistant.loader] Loaded tts from homeassistant.components.tts
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setting up notify
-2020-09-30 12:44:49 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: '/usr/bin/avconv'
+2020-11-01 20:54:35 WARNING (MainThread) [homeassistant.config] Key whitelist_external_dirs has been replaced with allowlist_external_dirs. Please update your config
+2020-11-01 20:54:38 WARNING (MainThread) [homeassistant.components.recorder] The 'purge_interval' option is deprecated, please remove it from your configuration
+2020-11-01 20:54:38 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.setup] Setting up http
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.1 seconds
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 1.0 seconds
+2020-11-01 20:54:39 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'api', 'auth', 'image', 'lovelace', 'search', 'onboarding', 'person', 'system_log', 'frontend', 'device_automation', 'config', 'http', 'hassio', 'websocket_api'}
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up api
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up auth
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up lovelace
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up device_automation
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up config
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up hassio
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2020-11-01 20:54:40 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain api took 1.2 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setting up image
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain config took 1.1 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 1.2 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setting up search
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain image took 0.1 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setting up person
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain person took 0.0 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setting up onboarding
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.helpers.storage] Migrating onboarding storage from 1 to 3
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
+2020-11-01 20:54:41 INFO (SyncWorker_10) [homeassistant.loader] Loaded device_tracker from homeassistant.components.device_tracker
+2020-11-01 20:54:41 INFO (SyncWorker_8) [homeassistant.loader] Loaded scene from homeassistant.components.scene
+2020-11-01 20:54:41 INFO (SyncWorker_3) [homeassistant.loader] Loaded panel_custom from homeassistant.components.panel_custom
+2020-11-01 20:54:41 INFO (SyncWorker_5) [homeassistant.loader] Loaded webhook from homeassistant.components.webhook
+2020-11-01 20:54:41 INFO (SyncWorker_21) [homeassistant.loader] Loaded zone from homeassistant.components.zone
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 1.5 seconds
+2020-11-01 20:54:41 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'script', 'mqtt', 'map', 'group', 'zwave', 'history', 'updater', 'binary_sensor', 'shell_command', 'notify', 'cast', 'ffmpeg', 'sensor', 'automation', 'logbook', 'camera', 'system_health'}
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setting up map
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setting up group
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setting up zwave
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setup of domain zwave took 0.0 seconds
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setting up history
+2020-11-01 20:54:42 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setting up updater
+2020-11-01 20:54:43 INFO (SyncWorker_7) [homeassistant.loader] Loaded template from homeassistant.components.template
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setting up shell_command
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setup of domain shell_command took 0.0 seconds
+2020-11-01 20:54:43 INFO (SyncWorker_20) [homeassistant.loader] Loaded smtp from homeassistant.components.smtp
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setting up ffmpeg
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setting up system_health
+2020-11-01 20:54:43 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 0.0 seconds
+2020-11-01 20:54:43 INFO (SyncWorker_16) [homeassistant.loader] Loaded mjpeg from homeassistant.components.mjpeg
+2020-11-01 20:54:43 INFO (SyncWorker_3) [homeassistant.loader] Loaded media_source from homeassistant.components.media_source
+2020-11-01 20:54:43 INFO (SyncWorker_11) [homeassistant.loader] Loaded cloud from homeassistant.components.cloud
+2020-11-01 20:54:43 INFO (SyncWorker_21) [homeassistant.loader] Loaded zeroconf from homeassistant.components.zeroconf
+2020-11-01 20:54:43 INFO (SyncWorker_19) [homeassistant.loader] Loaded tts from homeassistant.components.tts
+2020-11-01 20:54:43 INFO (SyncWorker_5) [homeassistant.loader] Loaded plex from homeassistant.components.plex
+2020-11-01 20:54:50 INFO (MainThread) [homeassistant.components.zwave] Z-Wave USB path is /dev/serial/by-id/usb-0658_0200-if00
+2020-11-01 20:54:50 INFO (MainThread) [homeassistant.setup] Setting up notify
+2020-11-01 20:54:50 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: '/usr/bin/avconv'
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/haffmpeg/core.py", line 136, in open
     self._proc = await self._loop.run_in_executor(None, proc_func)
@@ -72,568 +73,573 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/avconv'
-2020-09-30 12:44:49 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
-2020-09-30 12:44:49 INFO (MainThread) [homeassistant.setup] Setup of domain ffmpeg took 0.8 seconds
-2020-09-30 12:44:56 INFO (MainThread) [homeassistant.components.zwave] Z-Wave USB path is /dev/serial/by-id/usb-0658_0200-if00
-2020-09-30 12:44:56 INFO (MainThread) [homeassistant.setup] Setting up camera
-2020-09-30 12:44:56 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
-2020-09-30 12:44:56 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 8.9 seconds
-2020-09-30 12:44:57 INFO (MainThread) [homeassistant.setup] Setting up mqtt
-2020-09-30 12:44:57 INFO (MainThread) [homeassistant.setup] Setup of domain mqtt took 0.0 seconds
-2020-09-30 12:44:57 INFO (MainThread) [homeassistant.setup] Setting up script
-2020-09-30 12:44:57 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 9.4 seconds
-2020-09-30 12:44:57 INFO (SyncWorker_9) [homeassistant.loader] Loaded systemmonitor from homeassistant.components.systemmonitor
-2020-09-30 12:44:57 INFO (SyncWorker_3) [homeassistant.loader] Loaded alexa from homeassistant.components.alexa
-2020-09-30 12:44:57 INFO (SyncWorker_5) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
-2020-09-30 12:44:57 INFO (SyncWorker_10) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
-2020-09-30 12:44:58 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
-2020-09-30 12:44:58 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain camera took 2.7 seconds
-2020-09-30 12:44:59 INFO (SyncWorker_8) [homeassistant.loader] Loaded climate from homeassistant.components.climate
-2020-09-30 12:44:59 INFO (SyncWorker_9) [homeassistant.loader] Loaded cover from homeassistant.components.cover
-2020-09-30 12:44:59 INFO (SyncWorker_4) [homeassistant.loader] Loaded time_date from homeassistant.components.time_date
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain group took 9.9 seconds
-2020-09-30 12:44:59 INFO (SyncWorker_10) [homeassistant.loader] Loaded switch from homeassistant.components.switch
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain script took 1.7 seconds
-2020-09-30 12:44:59 INFO (SyncWorker_11) [homeassistant.loader] Loaded fan from homeassistant.components.fan
-2020-09-30 12:44:59 INFO (SyncWorker_3) [homeassistant.loader] Loaded lock from homeassistant.components.lock
-2020-09-30 12:44:59 INFO (SyncWorker_5) [homeassistant.loader] Loaded light from homeassistant.components.light
-2020-09-30 12:44:59 INFO (Thread-3) [homeassistant.components.mqtt] Connected to MQTT server 10.1.2.89:1883 (0)
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.zwave
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up climate
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain climate took 0.0 seconds
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up cover
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds
-2020-09-30 12:44:59 INFO (SyncWorker_6) [homeassistant.loader] Loaded worldclock from homeassistant.components.worldclock
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up switch
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up fan
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain fan took 0.0 seconds
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up lock
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setup of domain lock took 0.0 seconds
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up light
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.setup] Setting up automation
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.components.climate] Setting up climate.zwave
-2020-09-30 12:44:59 INFO (MainThread) [homeassistant.components.cover] Setting up cover.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setting up sensor
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.switch] Setting up switch.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.fan] Setting up fan.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.lock] Setting up lock.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setup of domain light took 0.8 seconds
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.systemmonitor
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.time_date
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.worldclock
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 10.8 seconds
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.components.light] Setting up light.zwave
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setting up cast
-2020-09-30 12:45:00 INFO (MainThread) [homeassistant.setup] Setup of domain cast took 0.0 seconds
-2020-09-30 12:45:04 INFO (MainThread) [homeassistant.setup] Setting up media_player
-2020-09-30 12:45:04 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.1 seconds
-2020-09-30 12:45:05 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
-2020-09-30 12:45:05 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 6.1 seconds
-2020-09-30 12:45:05 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.115.5', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.5', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '245', 'host_os': 'HassOS 4.13', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
-2020-09-30 12:45:05 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 25.13s
-2020-09-30 12:45:05 INFO (MainThread) [homeassistant.core] Starting Home Assistant
-2020-09-30 12:45:05 INFO (SyncWorker_1) [homeassistant.components.zwave] Starting Z-Wave network...
-2020-09-30 12:45:05 INFO (SyncWorker_1) [openzwave] Start Openzwave network.
-2020-09-30 12:45:06 INFO (Dummy-7) [openzwave] Driver ready using library Static Controller version Z-Wave 3.95
-2020-09-30 12:45:06 INFO (Dummy-7) [openzwave] home_id 0xdf2f20c2, controller node id is 1
-2020-09-30 12:45:07 INFO (MainThread) [homeassistant.core] Timer:starting
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.turn_off_neo3_if_neo2_on] Initialized trigger Turn off Neo3 if Neo2 on
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Initialized trigger Turn off OfficeLight after 3 minutes no motion
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.door_is_open] Initialized trigger Door is open
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Initialized trigger Turn on InovelliSW2 when there is movement
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Initialized trigger Turn on Zooz01 when there is movement
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Initialized trigger Turn off Zooz01 5 minutes after last movement
-2020-09-30 12:45:09 INFO (MainThread) [homeassistant.components.automation.switch_of_water] Initialized trigger Switch of Water
-2020-09-30 12:46:17 INFO (Dummy-7) [homeassistant.components.zwave] Z-Wave network is ready for use. All awake nodes have been queried. Sleeping nodes will be queried when they awake
-2020-09-30 12:46:18 INFO (MainThread) [homeassistant.components.zwave] Z-Wave ready after 70 seconds
-2020-09-30 12:46:18 INFO (SyncWorker_9) [homeassistant.components.zwave] Z-Wave polling interval set to 30000 ms
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded nexia from homeassistant.components.nexia
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded bsblan from homeassistant.components.bsblan
-2020-09-30 12:47:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded solaredge from homeassistant.components.solaredge
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded airvisual from homeassistant.components.airvisual
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded shelly from homeassistant.components.shelly
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded spider from homeassistant.components.spider
-2020-09-30 12:47:51 INFO (SyncWorker_18) [homeassistant.loader] Loaded transmission from homeassistant.components.transmission
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded upnp from homeassistant.components.upnp
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded hvv_departures from homeassistant.components.hvv_departures
-2020-09-30 12:47:51 INFO (SyncWorker_21) [homeassistant.loader] Loaded nut from homeassistant.components.nut
-2020-09-30 12:47:51 INFO (SyncWorker_10) [homeassistant.loader] Loaded braviatv from homeassistant.components.braviatv
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded soma from homeassistant.components.soma
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded elgato from homeassistant.components.elgato
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded twilio from homeassistant.components.twilio
-2020-09-30 12:47:51 INFO (SyncWorker_16) [homeassistant.loader] Loaded upb from homeassistant.components.upb
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded mailgun from homeassistant.components.mailgun
-2020-09-30 12:47:51 INFO (SyncWorker_23) [homeassistant.loader] Loaded sonarr from homeassistant.components.sonarr
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded axis from homeassistant.components.axis
-2020-09-30 12:47:51 INFO (SyncWorker_21) [homeassistant.loader] Loaded smartthings from homeassistant.components.smartthings
-2020-09-30 12:47:51 INFO (SyncWorker_20) [homeassistant.loader] Loaded wolflink from homeassistant.components.wolflink
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded control4 from homeassistant.components.control4
-2020-09-30 12:47:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded iaqualink from homeassistant.components.iaqualink
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded gogogate2 from homeassistant.components.gogogate2
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded acmeda from homeassistant.components.acmeda
-2020-09-30 12:47:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded pvpc_hourly_pricing from homeassistant.components.pvpc_hourly_pricing
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded smappee from homeassistant.components.smappee
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded dexcom from homeassistant.components.dexcom
-2020-09-30 12:47:51 INFO (SyncWorker_18) [homeassistant.loader] Loaded neato from homeassistant.components.neato
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded logi_circle from homeassistant.components.logi_circle
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded adguard from homeassistant.components.adguard
-2020-09-30 12:47:51 INFO (SyncWorker_10) [homeassistant.loader] Loaded devolo_home_control from homeassistant.components.devolo_home_control
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded icloud from homeassistant.components.icloud
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded homematicip_cloud from homeassistant.components.homematicip_cloud
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded directv from homeassistant.components.directv
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded deconz from homeassistant.components.deconz
-2020-09-30 12:47:51 INFO (SyncWorker_2) [homeassistant.loader] Loaded plum_lightpad from homeassistant.components.plum_lightpad
-2020-09-30 12:47:51 INFO (SyncWorker_1) [homeassistant.loader] Loaded nws from homeassistant.components.nws
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded roku from homeassistant.components.roku
-2020-09-30 12:47:51 INFO (SyncWorker_25) [homeassistant.loader] Loaded juicenet from homeassistant.components.juicenet
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded pi_hole from homeassistant.components.pi_hole
-2020-09-30 12:47:51 INFO (SyncWorker_21) [homeassistant.loader] Loaded azure_devops from homeassistant.components.azure_devops
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded hue from homeassistant.components.hue
-2020-09-30 12:47:51 INFO (SyncWorker_1) [homeassistant.loader] Loaded wemo from homeassistant.components.wemo
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded tplink from homeassistant.components.tplink
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded openweathermap from homeassistant.components.openweathermap
-2020-09-30 12:47:51 INFO (SyncWorker_20) [homeassistant.loader] Loaded progettihwsw from homeassistant.components.progettihwsw
-2020-09-30 12:47:51 INFO (SyncWorker_9) [homeassistant.loader] Loaded yeelight from homeassistant.components.yeelight
-2020-09-30 12:47:51 INFO (SyncWorker_10) [homeassistant.loader] Loaded poolsense from homeassistant.components.poolsense
-2020-09-30 12:47:51 INFO (SyncWorker_2) [homeassistant.loader] Loaded syncthru from homeassistant.components.syncthru
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded konnected from homeassistant.components.konnected
-2020-09-30 12:47:51 INFO (SyncWorker_16) [homeassistant.loader] Loaded insteon from homeassistant.components.insteon
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded mill from homeassistant.components.mill
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded smart_meter_texas from homeassistant.components.smart_meter_texas
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded sonos from homeassistant.components.sonos
-2020-09-30 12:47:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded gios from homeassistant.components.gios
-2020-09-30 12:47:51 INFO (SyncWorker_24) [homeassistant.loader] Loaded eafm from homeassistant.components.eafm
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded home_connect from homeassistant.components.home_connect
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded somfy from homeassistant.components.somfy
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded avri from homeassistant.components.avri
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded melcloud from homeassistant.components.melcloud
-2020-09-30 12:47:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded agent_dvr from homeassistant.components.agent_dvr
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded plaato from homeassistant.components.plaato
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded owntracks from homeassistant.components.owntracks
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded tile from homeassistant.components.tile
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded isy994 from homeassistant.components.isy994
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded netatmo from homeassistant.components.netatmo
-2020-09-30 12:47:51 INFO (SyncWorker_26) [homeassistant.loader] Loaded ambiclimate from homeassistant.components.ambiclimate
-2020-09-30 12:47:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded meteo_france from homeassistant.components.meteo_france
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded hisense_aehw4a1 from homeassistant.components.hisense_aehw4a1
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded withings from homeassistant.components.withings
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded minecraft_server from homeassistant.components.minecraft_server
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded ecobee from homeassistant.components.ecobee
-2020-09-30 12:47:51 INFO (SyncWorker_24) [homeassistant.loader] Loaded smarthab from homeassistant.components.smarthab
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded geonetnz_quakes from homeassistant.components.geonetnz_quakes
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded simplisafe from homeassistant.components.simplisafe
-2020-09-30 12:47:51 INFO (SyncWorker_20) [homeassistant.loader] Loaded coolmaster from homeassistant.components.coolmaster
-2020-09-30 12:47:51 INFO (SyncWorker_16) [homeassistant.loader] Loaded powerwall from homeassistant.components.powerwall
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded sharkiq from homeassistant.components.sharkiq
-2020-09-30 12:47:51 INFO (SyncWorker_18) [homeassistant.loader] Loaded wled from homeassistant.components.wled
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded velbus from homeassistant.components.velbus
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded opentherm_gw from homeassistant.components.opentherm_gw
-2020-09-30 12:47:51 INFO (SyncWorker_24) [homeassistant.loader] Loaded luftdaten from homeassistant.components.luftdaten
-2020-09-30 12:47:51 INFO (SyncWorker_21) [homeassistant.loader] Loaded fritzbox from homeassistant.components.fritzbox
-2020-09-30 12:47:51 INFO (SyncWorker_1) [homeassistant.loader] Loaded sms from homeassistant.components.sms
-2020-09-30 12:47:51 INFO (SyncWorker_2) [homeassistant.loader] Loaded broadlink from homeassistant.components.broadlink
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded huawei_lte from homeassistant.components.huawei_lte
-2020-09-30 12:47:51 INFO (SyncWorker_23) [homeassistant.loader] Loaded smhi from homeassistant.components.smhi
-2020-09-30 12:47:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded hunterdouglas_powerview from homeassistant.components.hunterdouglas_powerview
-2020-09-30 12:47:51 INFO (SyncWorker_20) [homeassistant.loader] Loaded zha from homeassistant.components.zha
-2020-09-30 12:47:51 INFO (SyncWorker_10) [homeassistant.loader] Loaded tradfri from homeassistant.components.tradfri
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded almond from homeassistant.components.almond
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded heos from homeassistant.components.heos
-2020-09-30 12:47:51 INFO (SyncWorker_16) [homeassistant.loader] Loaded notion from homeassistant.components.notion
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded openuv from homeassistant.components.openuv
-2020-09-30 12:47:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded rainmachine from homeassistant.components.rainmachine
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded ios from homeassistant.components.ios
-2020-09-30 12:47:51 INFO (SyncWorker_25) [homeassistant.loader] Loaded emulated_roku from homeassistant.components.emulated_roku
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded life360 from homeassistant.components.life360
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded monoprice from homeassistant.components.monoprice
-2020-09-30 12:47:51 INFO (SyncWorker_25) [homeassistant.loader] Loaded garmin_connect from homeassistant.components.garmin_connect
-2020-09-30 12:47:51 INFO (SyncWorker_9) [homeassistant.loader] Loaded homekit from homeassistant.components.homekit
-2020-09-30 12:47:51 INFO (SyncWorker_26) [homeassistant.loader] Loaded doorbird from homeassistant.components.doorbird
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded nest from homeassistant.components.nest
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded flunearyou from homeassistant.components.flunearyou
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded vilfo from homeassistant.components.vilfo
-2020-09-30 12:47:51 INFO (SyncWorker_9) [homeassistant.loader] Loaded spotify from homeassistant.components.spotify
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded squeezebox from homeassistant.components.squeezebox
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded dialogflow from homeassistant.components.dialogflow
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded locative from homeassistant.components.locative
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded sentry from homeassistant.components.sentry
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded denonavr from homeassistant.components.denonavr
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded shopping_list from homeassistant.components.shopping_list
-2020-09-30 12:47:51 INFO (SyncWorker_16) [homeassistant.loader] Loaded point from homeassistant.components.point
-2020-09-30 12:47:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded totalconnect from homeassistant.components.totalconnect
-2020-09-30 12:47:51 INFO (SyncWorker_9) [homeassistant.loader] Loaded atag from homeassistant.components.atag
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded roomba from homeassistant.components.roomba
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded synology_dsm from homeassistant.components.synology_dsm
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded metoffice from homeassistant.components.metoffice
-2020-09-30 12:47:51 INFO (SyncWorker_25) [homeassistant.loader] Loaded wiffi from homeassistant.components.wiffi
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded flick_electric from homeassistant.components.flick_electric
-2020-09-30 12:47:51 INFO (SyncWorker_26) [homeassistant.loader] Loaded griddy from homeassistant.components.griddy
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded ovo_energy from homeassistant.components.ovo_energy
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded kodi from homeassistant.components.kodi
-2020-09-30 12:47:51 INFO (SyncWorker_29) [homeassistant.loader] Loaded glances from homeassistant.components.glances
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded xiaomi_miio from homeassistant.components.xiaomi_miio
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded vizio from homeassistant.components.vizio
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded xiaomi_aqara from homeassistant.components.xiaomi_aqara
-2020-09-30 12:47:51 INFO (SyncWorker_28) [homeassistant.loader] Loaded august from homeassistant.components.august
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded nightscout from homeassistant.components.nightscout
-2020-09-30 12:47:51 INFO (SyncWorker_29) [homeassistant.loader] Loaded dunehd from homeassistant.components.dunehd
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded ozw from homeassistant.components.ozw
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded wilight from homeassistant.components.wilight
-2020-09-30 12:47:51 INFO (SyncWorker_27) [homeassistant.loader] Loaded ps4 from homeassistant.components.ps4
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded gpslogger from homeassistant.components.gpslogger
-2020-09-30 12:47:51 INFO (SyncWorker_21) [homeassistant.loader] Loaded tibber from homeassistant.components.tibber
-2020-09-30 12:47:51 INFO (SyncWorker_8) [homeassistant.loader] Loaded forked_daapd from homeassistant.components.forked_daapd
-2020-09-30 12:47:51 INFO (SyncWorker_17) [homeassistant.loader] Loaded traccar from homeassistant.components.traccar
-2020-09-30 12:47:51 INFO (SyncWorker_26) [homeassistant.loader] Loaded esphome from homeassistant.components.esphome
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded sense from homeassistant.components.sense
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded volumio from homeassistant.components.volumio
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded bond from homeassistant.components.bond
-2020-09-30 12:47:51 INFO (SyncWorker_24) [homeassistant.loader] Loaded songpal from homeassistant.components.songpal
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded tesla from homeassistant.components.tesla
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded coronavirus from homeassistant.components.coronavirus
-2020-09-30 12:47:51 INFO (SyncWorker_25) [homeassistant.loader] Loaded toon from homeassistant.components.toon
-2020-09-30 12:47:51 INFO (SyncWorker_7) [homeassistant.loader] Loaded plugwise from homeassistant.components.plugwise
-2020-09-30 12:47:51 INFO (SyncWorker_31) [homeassistant.loader] Loaded arcam_fmj from homeassistant.components.arcam_fmj
-2020-09-30 12:47:51 INFO (SyncWorker_1) [homeassistant.loader] Loaded flo from homeassistant.components.flo
-2020-09-30 12:47:51 INFO (SyncWorker_3) [homeassistant.loader] Loaded blink from homeassistant.components.blink
-2020-09-30 12:47:51 INFO (SyncWorker_13) [homeassistant.loader] Loaded mikrotik from homeassistant.components.mikrotik
-2020-09-30 12:47:51 INFO (SyncWorker_28) [homeassistant.loader] Loaded ipma from homeassistant.components.ipma
-2020-09-30 12:47:51 INFO (SyncWorker_5) [homeassistant.loader] Loaded izone from homeassistant.components.izone
-2020-09-30 12:47:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded geofency from homeassistant.components.geofency
-2020-09-30 12:47:51 INFO (SyncWorker_2) [homeassistant.loader] Loaded dynalite from homeassistant.components.dynalite
-2020-09-30 12:47:51 INFO (SyncWorker_6) [homeassistant.loader] Loaded awair from homeassistant.components.awair
-2020-09-30 12:47:51 INFO (SyncWorker_24) [homeassistant.loader] Loaded myq from homeassistant.components.myq
-2020-09-30 12:47:51 INFO (SyncWorker_20) [homeassistant.loader] Loaded hangouts from homeassistant.components.hangouts
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded onvif from homeassistant.components.onvif
-2020-09-30 12:47:51 INFO (SyncWorker_4) [homeassistant.loader] Loaded tado from homeassistant.components.tado
-2020-09-30 12:47:51 INFO (SyncWorker_23) [homeassistant.loader] Loaded abode from homeassistant.components.abode
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded freebox from homeassistant.components.freebox
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded local_ip from homeassistant.components.local_ip
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded harmony from homeassistant.components.harmony
-2020-09-30 12:47:51 INFO (SyncWorker_23) [homeassistant.loader] Loaded homekit_controller from homeassistant.components.homekit_controller
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded panasonic_viera from homeassistant.components.panasonic_viera
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded cert_expiry from homeassistant.components.cert_expiry
-2020-09-30 12:47:51 INFO (SyncWorker_18) [homeassistant.loader] Loaded brother from homeassistant.components.brother
-2020-09-30 12:47:51 INFO (SyncWorker_11) [homeassistant.loader] Loaded accuweather from homeassistant.components.accuweather
-2020-09-30 12:47:51 INFO (SyncWorker_0) [homeassistant.loader] Loaded tellduslive from homeassistant.components.tellduslive
-2020-09-30 12:47:51 INFO (SyncWorker_30) [homeassistant.loader] Loaded flume from homeassistant.components.flume
-2020-09-30 12:47:51 INFO (SyncWorker_14) [homeassistant.loader] Loaded geonetnz_volcano from homeassistant.components.geonetnz_volcano
-2020-09-30 12:47:51 INFO (SyncWorker_22) [homeassistant.loader] Loaded plex from homeassistant.components.plex
-2020-09-30 12:47:51 INFO (SyncWorker_15) [homeassistant.loader] Loaded enocean from homeassistant.components.enocean
-2020-09-30 12:47:51 INFO (SyncWorker_18) [homeassistant.loader] Loaded nzbget from homeassistant.components.nzbget
-2020-09-30 12:47:52 INFO (SyncWorker_32) [homeassistant.loader] Loaded speedtestdotnet from homeassistant.components.speedtestdotnet
-2020-09-30 12:47:52 INFO (SyncWorker_15) [homeassistant.loader] Loaded ambient_station from homeassistant.components.ambient_station
-2020-09-30 12:47:52 INFO (SyncWorker_23) [homeassistant.loader] Loaded roon from homeassistant.components.roon
-2020-09-30 12:47:52 INFO (SyncWorker_16) [homeassistant.loader] Loaded tuya from homeassistant.components.tuya
-2020-09-30 12:47:52 INFO (SyncWorker_14) [homeassistant.loader] Loaded starline from homeassistant.components.starline
-2020-09-30 12:47:52 INFO (SyncWorker_11) [homeassistant.loader] Loaded ipp from homeassistant.components.ipp
-2020-09-30 12:47:52 INFO (SyncWorker_22) [homeassistant.loader] Loaded gdacs from homeassistant.components.gdacs
-2020-09-30 12:47:52 INFO (SyncWorker_30) [homeassistant.loader] Loaded islamic_prayer_times from homeassistant.components.islamic_prayer_times
-2020-09-30 12:47:52 INFO (SyncWorker_12) [homeassistant.loader] Loaded guardian from homeassistant.components.guardian
-2020-09-30 12:47:52 INFO (SyncWorker_9) [homeassistant.loader] Loaded twentemilieu from homeassistant.components.twentemilieu
-2020-09-30 12:47:52 INFO (SyncWorker_15) [homeassistant.loader] Loaded blebox from homeassistant.components.blebox
-2020-09-30 12:47:52 INFO (SyncWorker_12) [homeassistant.loader] Loaded daikin from homeassistant.components.daikin
-2020-09-30 12:47:52 INFO (SyncWorker_16) [homeassistant.loader] Loaded iqvia from homeassistant.components.iqvia
-2020-09-30 12:47:52 INFO (SyncWorker_27) [homeassistant.loader] Loaded elkm1 from homeassistant.components.elkm1
-2020-09-30 12:47:52 INFO (SyncWorker_11) [homeassistant.loader] Loaded solarlog from homeassistant.components.solarlog
-2020-09-30 12:47:52 INFO (SyncWorker_23) [homeassistant.loader] Loaded vesync from homeassistant.components.vesync
-2020-09-30 12:47:52 INFO (SyncWorker_8) [homeassistant.loader] Loaded hlk_sw16 from homeassistant.components.hlk_sw16
-2020-09-30 12:47:52 INFO (SyncWorker_29) [homeassistant.loader] Loaded samsungtv from homeassistant.components.samsungtv
-2020-09-30 12:47:52 INFO (SyncWorker_0) [homeassistant.loader] Loaded rachio from homeassistant.components.rachio
-2020-09-30 12:47:52 INFO (SyncWorker_21) [homeassistant.loader] Loaded airly from homeassistant.components.airly
-2020-09-30 12:47:52 INFO (SyncWorker_18) [homeassistant.loader] Loaded mobile_app from homeassistant.components.mobile_app
-2020-09-30 12:47:52 INFO (SyncWorker_33) [homeassistant.loader] Loaded zerproc from homeassistant.components.zerproc
-2020-09-30 12:47:52 INFO (SyncWorker_14) [homeassistant.loader] Loaded nuheat from homeassistant.components.nuheat
-2020-09-30 12:47:52 INFO (SyncWorker_30) [homeassistant.loader] Loaded unifi from homeassistant.components.unifi
-2020-09-30 12:47:52 INFO (SyncWorker_11) [homeassistant.loader] Loaded vera from homeassistant.components.vera
-2020-09-30 12:47:52 INFO (SyncWorker_15) [homeassistant.loader] Loaded met from homeassistant.components.met
-2020-09-30 12:47:52 INFO (SyncWorker_9) [homeassistant.loader] Loaded ring from homeassistant.components.ring
-2020-09-30 12:47:52 INFO (SyncWorker_22) [homeassistant.loader] Loaded lifx from homeassistant.components.lifx
-2020-09-30 12:47:52 INFO (SyncWorker_23) [homeassistant.loader] Loaded risco from homeassistant.components.risco
-2020-09-30 12:47:52 INFO (SyncWorker_32) [homeassistant.loader] Loaded ifttt from homeassistant.components.ifttt
-2020-09-30 12:48:41 INFO (SyncWorker_28) [homeassistant.components.zwave] Z-Wave add_node have been initialized
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:00 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:01 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:02 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:03 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:03 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:03 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:04
-2020-09-30 12:49:03 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:04
-2020-09-30 12:49:07 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:07 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:08 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:09 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:09 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:10 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:16
-2020-09-30 12:49:10 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:10 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:16
-2020-09-30 12:49:26 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:26 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:27 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:28 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:28 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:49:28 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:32
-2020-09-30 12:49:29 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:49:29 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:32
-2020-09-30 12:50:00 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:50:01 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:50:01 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:50:02 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:50:03 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:50:03 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 12:50:03 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:50:04 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 12:51:35 INFO (SyncWorker_33) [homeassistant.components.zwave] Z-Wave add_node have been initialized
-2020-09-30 12:51:35 WARNING (SyncWorker_33) [openzwave] Can't lock controller for command : add_node
-2020-09-30 12:51:55 INFO (SyncWorker_10) [homeassistant.components.zwave] Z-Wave add_node have been initialized
-2020-09-30 12:51:55 WARNING (SyncWorker_10) [openzwave] Can't lock controller for command : add_node
-2020-09-30 12:52:11 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new sensor.zwave entity: sensor.everspring_st812_flood_detector_flood
-2020-09-30 12:52:12 INFO (MainThread) [homeassistant.components.zwave] Z-Wave node 13 ready after 2 seconds
-2020-09-30 12:52:12 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new zwave.zwave entity: zwave.everspring_st812_flood_detector
-2020-09-30 12:52:40 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave entity Unknown Node 13 Alarm Type (node_id: 13) not ready after 30 seconds, continuing anyway
-2020-09-30 12:52:40 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave entity Unknown Node 13 Alarm Level (node_id: 13) not ready after 30 seconds, continuing anyway
-2020-09-30 12:52:40 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave entity Unknown Node 13 Battery Level (node_id: 13) not ready after 30 seconds, continuing anyway
-2020-09-30 12:59:02 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Running automation actions
-2020-09-30 12:59:02 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:02 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:03 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:03 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step delay 0:00:04
-2020-09-30 12:59:07 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:08 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:08 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step delay 0:00:16
-2020-09-30 12:59:24 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:24 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:25 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step delay 0:00:32
-2020-09-30 12:59:57 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:57 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 12:59:58 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Turn on Zooz01 when there is movement: Executing step call service
-2020-09-30 13:05:26 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Turn off OfficeLight after 3 minutes no motion: Running automation actions
-2020-09-30 13:05:26 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Turn off OfficeLight after 3 minutes no motion: Executing step call service
-2020-09-30 13:05:26 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Turn off Zooz01 5 minutes after last movement: Running automation actions
-2020-09-30 13:05:26 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Turn off Zooz01 5 minutes after last movement: Executing step call service
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:04 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:05 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:06 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:06 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:06 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:04
-2020-09-30 13:07:07 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:07 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:04
-2020-09-30 13:07:10 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:11 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:11 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:12 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:13 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:13 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:16
-2020-09-30 13:07:13 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:14 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:16
-2020-09-30 13:07:29 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:30 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:30 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:31 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:32 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:07:32 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:32
-2020-09-30 13:07:32 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:07:33 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:32
-2020-09-30 13:08:04 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:08:05 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:08:05 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:08:06 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:08:06 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:08:07 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:08:07 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:08:07 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:30:35 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Turn off OfficeLight after 3 minutes no motion: Running automation actions
-2020-09-30 13:30:35 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Turn off OfficeLight after 3 minutes no motion: Executing step call service
-2020-09-30 13:30:35 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Turn off Zooz01 5 minutes after last movement: Running automation actions
-2020-09-30 13:30:35 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Turn off Zooz01 5 minutes after last movement: Executing step call service
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:38 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:39 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:39 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:40 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:04
-2020-09-30 13:39:40 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:40 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:04
-2020-09-30 13:39:44 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:44 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:45 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:46 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:46 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:39:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:16
-2020-09-30 13:39:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:39:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:16
-2020-09-30 13:40:03 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:03 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:04 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:05 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:05 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:06 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:32
-2020-09-30 13:40:06 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:06 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:32
-2020-09-30 13:40:38 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:38 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:39 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:40 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:40 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:40 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-09-30 13:40:41 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 13:40:41 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:02:53 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
-2020-09-30 20:02:53 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:02:53 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:02:55 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:02:55 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:02:56 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:04
-2020-09-30 20:03:00 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:01 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:01 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:02 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:16
-2020-09-30 20:03:18 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:19 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:19 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:20 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:32
-2020-09-30 20:03:52 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:53 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:54 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 20:03:54 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-09-30 23:24:23 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1856785424] Connection closed by client
-2020-09-30 23:24:23 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1850087528] Connection closed by client
-2020-10-01 12:45:05 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.115.5', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.5', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '245', 'host_os': 'HassOS 4.13', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
-2020-10-01 13:51:01 INFO (Dummy-7) [homeassistant.components.zwave] Z-Wave network is complete. All nodes on the network have been queried
-2020-10-01 14:12:33 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1858256056] 
+2020-11-01 20:54:50 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
+2020-11-01 20:54:50 INFO (MainThread) [homeassistant.setup] Setup of domain ffmpeg took 6.9 seconds
+2020-11-01 20:54:50 INFO (MainThread) [homeassistant.setup] Setting up script
+2020-11-01 20:54:51 INFO (MainThread) [homeassistant.setup] Setting up mqtt
+2020-11-01 20:54:51 INFO (MainThread) [homeassistant.setup] Setup of domain mqtt took 0.0 seconds
+2020-11-01 20:54:51 INFO (MainThread) [homeassistant.setup] Setting up camera
+2020-11-01 20:54:51 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
+2020-11-01 20:54:51 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 8.3 seconds
+2020-11-01 20:54:52 INFO (SyncWorker_12) [homeassistant.loader] Loaded systemmonitor from homeassistant.components.systemmonitor
+2020-11-01 20:54:52 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 9.0 seconds
+2020-11-01 20:54:52 INFO (SyncWorker_14) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2020-11-01 20:54:52 INFO (SyncWorker_0) [homeassistant.loader] Loaded alexa from homeassistant.components.alexa
+2020-11-01 20:54:52 INFO (SyncWorker_7) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
+2020-11-01 20:54:52 INFO (SyncWorker_20) [homeassistant.loader] Loaded sonos from homeassistant.components.sonos
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
+2020-11-01 20:54:53 WARNING (MainThread) [homeassistant.setup] Setup of group is taking over 10 seconds.
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain script took 2.6 seconds
+2020-11-01 20:54:53 INFO (SyncWorker_3) [homeassistant.loader] Loaded climate from homeassistant.components.climate
+2020-11-01 20:54:53 INFO (SyncWorker_10) [homeassistant.loader] Loaded time_date from homeassistant.components.time_date
+2020-11-01 20:54:53 INFO (SyncWorker_5) [homeassistant.loader] Loaded light from homeassistant.components.light
+2020-11-01 20:54:53 INFO (SyncWorker_19) [homeassistant.loader] Loaded lock from homeassistant.components.lock
+2020-11-01 20:54:53 INFO (SyncWorker_2) [homeassistant.loader] Loaded switch from homeassistant.components.switch
+2020-11-01 20:54:53 INFO (SyncWorker_21) [homeassistant.loader] Loaded fan from homeassistant.components.fan
+2020-11-01 20:54:53 INFO (SyncWorker_11) [homeassistant.loader] Loaded cover from homeassistant.components.cover
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain camera took 2.1 seconds
+2020-11-01 20:54:53 INFO (Thread-3) [homeassistant.components.mqtt] Connected to MQTT server 10.1.2.89:1883 (0)
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.zwave
+2020-11-01 20:54:53 INFO (SyncWorker_1) [homeassistant.loader] Loaded ssdp from homeassistant.components.ssdp
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up climate
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain climate took 0.0 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up light
+2020-11-01 20:54:53 INFO (SyncWorker_13) [homeassistant.loader] Loaded worldclock from homeassistant.components.worldclock
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up lock
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain lock took 0.0 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up switch
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up fan
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain fan took 0.0 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up cover
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setup of domain group took 11.8 seconds
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
+2020-11-01 20:54:53 INFO (MainThread) [homeassistant.setup] Setting up automation
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.climate] Setting up climate.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.setup] Setup of domain light took 1.0 seconds
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.lock] Setting up lock.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.switch] Setting up switch.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.fan] Setting up fan.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.cover] Setting up cover.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.systemmonitor
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.time_date
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.worldclock
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.light] Setting up light.zwave
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
+2020-11-01 20:54:54 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 4.6 seconds
+2020-11-01 20:54:55 INFO (MainThread) [homeassistant.setup] Setting up cast
+2020-11-01 20:54:55 INFO (MainThread) [homeassistant.setup] Setup of domain cast took 0.0 seconds
+2020-11-01 20:54:55 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2020-11-01 20:54:55 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.0 seconds
+2020-11-01 20:54:55 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 1.7 seconds
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 20.92s
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2020-11-01 20:54:56 INFO (SyncWorker_16) [homeassistant.components.zwave] Starting Z-Wave network...
+2020-11-01 20:54:56 INFO (SyncWorker_16) [openzwave] Start Openzwave network.
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.core] Timer:starting
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.10.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-01 20:54:56 INFO (Dummy-7) [openzwave] Driver ready using library Static Controller version Z-Wave 3.95
+2020-11-01 20:54:56 INFO (Dummy-7) [openzwave] home_id 0xdf2f20c2, controller node id is 1
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.turn_off_neo3_if_neo2_on] Initialized trigger Turn off Neo3 if Neo2 on
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Initialized trigger Turn off OfficeLight after 3 minutes no motion
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.door_is_open] Initialized trigger Door is open
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Initialized trigger Turn on InovelliSW2 when there is movement
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Initialized trigger Turn on Zooz01 when there is movement
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Initialized trigger Turn off Zooz01 5 minutes after last movement
+2020-11-01 20:54:56 INFO (MainThread) [homeassistant.components.automation.switch_of_water] Initialized trigger Switch of Water
+2020-11-01 20:56:32 INFO (Dummy-7) [homeassistant.components.zwave] Z-Wave network is ready for use. All awake nodes have been queried. Sleeping nodes will be queried when they awake
+2020-11-01 20:56:33 INFO (MainThread) [homeassistant.components.zwave] Z-Wave ready after 96 seconds
+2020-11-01 20:56:33 INFO (SyncWorker_11) [homeassistant.components.zwave] Z-Wave polling interval set to 30000 ms
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-01 21:18:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-01 21:18:48 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-01 21:18:50 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-01 21:18:50 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-01 21:18:50 ERROR (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 137, in handle_call_service
-    await hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1315, in async_call
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
     task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1350, in _execute_service
-    await handler.func(service_call)
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 204, in handle_service
-    await self.hass.helpers.service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 459, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 655, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 490, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 423, in async_turn_off
-    await self.hass.async_add_executor_job(self.turn_off)
-  File "/usr/local/lib/python3.8/concurrent/futures/thread.py", line 57, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 419, in turn_off
-    raise NotImplementedError()
-NotImplementedError
-2020-10-01 14:12:35 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1858256056] 
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-01 21:18:50 ERROR (MainThread) [homeassistant.components.automation.door_is_open] While executing automation automation.door_is_open
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 137, in handle_call_service
-    await hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1315, in async_call
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
     task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1350, in _execute_service
-    await handler.func(service_call)
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 204, in handle_service
-    await self.hass.helpers.service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 459, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 655, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 490, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 423, in async_turn_off
-    await self.hass.async_add_executor_job(self.turn_off)
-  File "/usr/local/lib/python3.8/concurrent/futures/thread.py", line 57, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 419, in turn_off
-    raise NotImplementedError()
-NotImplementedError
-2020-10-01 14:58:20 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
-2020-10-01 14:58:20 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:20 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
-2020-10-01 14:58:20 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:21 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:21 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:22 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:23 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:23 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:24 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:04
-2020-10-01 14:58:24 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:24 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:04
-2020-10-01 14:58:28 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:28 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:28 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:29 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:30 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:31 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:16
-2020-10-01 14:58:31 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:31 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:16
-2020-10-01 14:58:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:47 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:47 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:48 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:49 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:58:49 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step delay 0:00:32
-2020-10-01 14:58:49 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:58:50 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step delay 0:00:32
-2020-10-01 14:59:21 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:59:22 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:59:22 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:59:23 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:59:24 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:59:24 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
-2020-10-01 14:59:24 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 14:59:25 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
-2020-10-01 23:23:25 WARNING (MainThread) [homeassistant.components.recorder] The 'purge_interval' option is deprecated, please remove it from your configuration
-2020-10-01 23:23:33 WARNING (MainThread) [homeassistant.config] Key whitelist_external_dirs has been replaced with allowlist_external_dirs. Please update your config
-2020-10-01 23:23:51 INFO (SyncWorker_12) [homeassistant.loader] Loaded alarm_control_panel from homeassistant.components.alarm_control_panel
-2020-10-01 23:23:51 INFO (SyncWorker_19) [homeassistant.loader] Loaded vacuum from homeassistant.components.vacuum
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.turn_off_neo3_if_neo2_on] Initialized trigger Turn off Neo3 if Neo2 on
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.turn_off_inovellisw2_3_minutes_after_last_movement] Initialized trigger Turn off OfficeLight after 3 minutes no motion
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.door_is_open] Initialized trigger Door is open
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Initialized trigger Turn on InovelliSW2 when there is movement
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.turn_on_zooz01_when_there_is_movement] Initialized trigger Turn on Zooz01 when there is movement
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.turn_off_zooz01_5_minutes_after_last_movement] Initialized trigger Turn off Zooz01 5 minutes after last movement
-2020-10-01 23:23:53 INFO (MainThread) [homeassistant.components.automation.switch_of_water] Initialized trigger Switch of Water
-2020-10-01 23:23:54 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
-2020-10-01 23:23:54 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
-2020-10-01 23:23:54 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.template
-2020-10-01 23:23:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-01 21:18:51 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-01 21:18:51 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-01 21:18:51 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] While executing automation automation.turn_on_inovellisw2_when_there_is_movement
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-01 22:11:45 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1849011504] Connection closed by client
+2020-11-02 17:38:06 INFO (Dummy-7) [homeassistant.components.zwave] Z-Wave network is complete. All nodes on the network have been queried
+2020-11-02 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.10.1', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-03 01:44:55 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1849015384] Connection closed by client
+2020-11-03 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.10.1', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-03 22:36:41 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1830606328] Connection closed by client
+2020-11-04 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-05 01:13:53 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1851842768] Connection closed by client
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-05 17:07:41 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-05 17:07:42 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-05 17:07:43 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-05 17:07:44 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-05 17:07:44 ERROR (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-05 17:07:44 ERROR (MainThread) [homeassistant.components.automation.door_is_open] While executing automation automation.door_is_open
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-05 17:07:44 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-05 17:07:44 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-05 17:07:44 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] While executing automation automation.turn_on_inovellisw2_when_there_is_movement
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-05 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-06 01:35:51 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1851928552] Connection closed by client
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Running automation actions
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Running automation actions
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-06 12:32:37 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-06 12:32:38 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-06 12:32:39 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-06 12:32:39 INFO (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Executing step call service
+2020-11-06 12:32:39 ERROR (MainThread) [homeassistant.components.automation.door_is_open] Door is open: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-06 12:32:39 ERROR (MainThread) [homeassistant.components.automation.door_is_open] While executing automation automation.door_is_open
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-06 12:32:40 INFO (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Executing step call service
+2020-11-06 12:32:40 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] Turn on InovelliSW2 when there is movement: Error executing script. Unexpected error for call_service at pos 4: [Errno 2] No such file or directory: '/usr/bin/convert'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-06 12:32:40 ERROR (MainThread) [homeassistant.components.automation.turn_on_inovellisw2_when_there_is_movement] While executing automation automation.turn_on_inovellisw2_when_there_is_movement
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/automation/__init__.py", line 426, in async_trigger
+    await self.action_script.async_run(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1448, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1483, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/shell_command/__init__.py", line 80, in async_service_handler
+    process = await create_process
+  File "/usr/local/lib/python3.8/asyncio/subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/local/lib/python3.8/asyncio/base_events.py", line 1630, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 197, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/local/lib/python3.8/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/local/lib/python3.8/asyncio/unix_events.py", line 789, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/convert'
+2020-11-06 13:35:25 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1849135336] Connection closed by client
+2020-11-06 15:36:14 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
+2020-11-06 15:36:14 ERROR (SyncWorker_5) [homeassistant.components.smtp.notify] Login not possible. Please check your setting and/or your credentials
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/smtp/notify.py", line 141, in connection_is_valid
+    server = self.connect()
+  File "/usr/src/homeassistant/homeassistant/components/smtp/notify.py", line 134, in connect
+    mail.login(self.username, self.password)
+  File "/usr/local/lib/python3.8/smtplib.py", line 734, in login
+    raise last_exception
+  File "/usr/local/lib/python3.8/smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "/usr/local/lib/python3.8/smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o124sm1659571ila.62 - gsmtp')
+2020-11-06 15:36:14 ERROR (MainThread) [homeassistant.components.notify] Failed to initialize notification service smtp
+2020-11-06 15:36:21 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Running script sequence
+2020-11-06 15:36:21 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Executing step call service
+2020-11-06 15:36:21 ERROR (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Error executing script. Service not found for call_service at pos 1: Unable to find service notify/mailtopykodel
+2020-11-06 15:36:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1398, in async_call
+    raise ServiceNotFound(domain, service) from None
+homeassistant.exceptions.ServiceNotFound: Unable to find service notify/mailtopykodel
+2020-11-06 15:38:11 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Running script sequence
+2020-11-06 15:38:11 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Executing step call service
+2020-11-06 15:38:11 ERROR (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Error executing script. Service not found for call_service at pos 1: Unable to find service notify/mailtopykodel
+2020-11-06 15:38:11 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1398, in async_call
+    raise ServiceNotFound(domain, service) from None
+homeassistant.exceptions.ServiceNotFound: Unable to find service notify/mailtopykodel
+2020-11-06 15:38:34 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Running script sequence
+2020-11-06 15:38:34 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Executing step call service
+2020-11-06 15:38:34 ERROR (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Error executing script. Service not found for call_service at pos 1: Unable to find service notify/mailtopykodel
+2020-11-06 15:38:34 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 1010, in async_run
+    await asyncio.shield(run.async_run())
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 245, in async_run
+    await self._async_step(log_exceptions=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 253, in _async_step
+    await getattr(
+  File "/usr/src/homeassistant/homeassistant/helpers/script.py", line 460, in _async_call_service_step
+    await service_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1398, in async_call
+    raise ServiceNotFound(domain, service) from None
+homeassistant.exceptions.ServiceNotFound: Unable to find service notify/mailtopykodel
+2020-11-06 15:39:21 INFO (MainThread) [homeassistant.components.notify] Setting up notify.smtp
+2020-11-06 15:39:26 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Running script sequence
+2020-11-06 15:39:26 INFO (MainThread) [homeassistant.components.script.test_notification] Gmail Notification: Executing step call service
+2020-11-06 19:41:00 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1849135840] Connection closed by client
+2020-11-06 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-07 02:28:31 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1830555576] Connection closed by client
+2020-11-07 02:29:57 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1851672776] Connection closed by client
+2020-11-07 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-07 22:46:04 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1851928144] Connection closed by client
+2020-11-07 23:43:24 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1849009512] Connection closed by client
+2020-11-08 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
+2020-11-09 20:54:58 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {'installation_type': 'Home Assistant OS', 'version': '0.117.2', 'dev': False, 'hassio': True, 'virtualenv': False, 'python_version': '3.8.6', 'docker': True, 'arch': 'armv7l', 'timezone': 'America/Toronto', 'os_name': 'Linux', 'os_version': '3.12.0', 'supervisor': '2020.11.0', 'host_os': 'HassOS 4.15', 'chassis': 'embedded', 'docker_version': '19.03.11', 'distribution': 'alpine', 'huuid': '3101311b0f0a431caaa266901c46204d'}
