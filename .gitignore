@@ -2,6 +2,6 @@ OZW_Log.txt
 secrets.yaml
 known_devices.yaml
 home-assistant*.db
-zwcfg*.xml
+!zwcfg*.xml
 !*.yaml
 !.gitignore
